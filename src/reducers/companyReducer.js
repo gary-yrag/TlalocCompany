@@ -1,12 +1,14 @@
 import 
 {   COMPANYGET_SUCCES,
-    COMPANYSET_SUCCES
+    COMPANYSET_SUCCES,
+    COMPANYSLIST_SUCCES
 } 
 from "../actions/actionTypes";
 
 const initialState = {
     company: {}, 
-    response: {}
+    response: {},
+    companys:[]
     
 };
 
@@ -25,6 +27,11 @@ export default function foo (state = initialState, action){
                 ...state,
                 response: action.payload
             }  
+        case COMPANYSLIST_SUCCES: 
+            return{
+                ...state,
+                companys: action.payload
+            }
         default:
             //console.log("default");
             return state;

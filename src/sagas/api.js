@@ -1,4 +1,5 @@
 import axios from "axios";
+const apiUrl = "http://localhost:56093/Tlaloc/";
 
 export const getCompany_api = (iden) => {
     console.log("iden",iden);
@@ -7,7 +8,7 @@ export const getCompany_api = (iden) => {
         headers: {
             "Content-Type": "apllication/json"
         },
-        url: "http://localhost:56093/api/values/"+iden
+        url: apiUrl+"values/getCompany/"+iden
     });
 };
 
@@ -39,10 +40,10 @@ formData.append('email', d.email);
 
 export const setCompany_api = (data) => {
     let d=data.payload;
-    console.log("setCompany_api",d);
+    //console.log("setCompany_api",d);
 
     return axios({
-        url: 'http://localhost:56093/api/values',
+        url: apiUrl+'values',
         method: 'post',                   
         headers:{'Content-Type': 'application/json'},
         data:{
@@ -58,5 +59,15 @@ export const setCompany_api = (data) => {
         }            
     });
    
+};
+
+export const getCompanys_api = () => { 
+    return axios.request({
+        method: "get",
+        headers: {
+            "Content-Type": "apllication/json"
+        },
+        url: apiUrl+"values/getCompanys"
+    });
 };
 

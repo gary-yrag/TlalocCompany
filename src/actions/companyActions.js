@@ -1,6 +1,7 @@
 import 
 {   COMPANYGET,
-    COMPANYSET
+    COMPANYSET,
+    COMPANYSLIST
 } 
 from "./actionTypes";
 
@@ -13,4 +14,8 @@ export const companyset = (data) => (
     {
     type: COMPANYSET,
     payload: data
+});
+
+export const companylist = () =>({
+    type:COMPANYSLIST  
 });

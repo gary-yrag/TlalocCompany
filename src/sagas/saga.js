@@ -6,13 +6,14 @@ import {
   } from "redux-saga/effects";
 
   import {
-    COMPANYGET,COMPANYGET_SUCCES,COMPANYSET,COMPANYSET_SUCCES
+    COMPANYGET,COMPANYGET_SUCCES,COMPANYSET,COMPANYSET_SUCCES, COMPANYSLIST,COMPANYSLIST_SUCCES
   } from "../actions/actionTypes";
-  import { getCompany_api,setCompany_api } from "./api";
+  import { getCompanys_api, getCompany_api,setCompany_api } from "./api";
   
   export default function* rootWatcher() {
     yield takeEvery(COMPANYGET, getCompany_fetch);
     yield takeEvery(COMPANYSET, setCompany_fetch);
+    yield takeEvery(COMPANYSLIST, getCompanys_fetch);
   }
 
   export function* getCompany_fetch(payload){ //iden
@@ -32,6 +33,13 @@ export function* setCompany_fetch(payload){
         type: COMPANYSET_SUCCES, payload: response.data
     });
     console.log(response.data);
+}
+
+export function* getCompanys_fetch(){
+  let response = yield call(getCompanys_api);
+  yield put({
+      type: COMPANYSLIST_SUCCES,payload: response.data
+  });
 }
 
 
