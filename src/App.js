@@ -18,7 +18,7 @@ function App() {
       <div >
       <div className="ta">TE AMO MUCHO MUCHO MUCHO MUCHO. PERDONEME POR NO HABLAR, NOO ME DEJE EN EL MUNDO</div>
         <div className="imgg2">
-          <img src={imgg} className="imgg2"></img>
+          <img src={imgg} className="imgg2" alt="AMOR"></img>
         </div>
         <div className="ta">TE AMO</div>
       </div>
