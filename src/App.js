@@ -35,17 +35,7 @@ function App() {
               </li>
             </ul>
 
-  {/*          
-            <ul>
-              <li>
-                <Link to="home">Home</Link>
-              </li>
-              <li>
-                <Link to="list">Companys</Link>
-              </li>
-            </ul>
 
-*/}
 
           </div>
 
