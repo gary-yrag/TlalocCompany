@@ -28,10 +28,10 @@ function App() {
           <div>
           <ul>
               <li>
-                <Link to="homes">Sara</Link>
+                <Link to="homes">Sara </Link>
               </li>
               <li>
-                <Link to="lists">Gary</Link>
+                <Link to="lists">Gary </Link>
               </li>
             </ul>
 
