@@ -48,5 +48,15 @@
   height: auto; 
   background-color: darkred;
   color: yellow;
+}
 
+.ta2 {
+  width: auto;
+  height: auto; 
+  background-color: orangered;
+  color: greenyellow;
+}
+
+.nomostrar{
+  display: none;
 }
