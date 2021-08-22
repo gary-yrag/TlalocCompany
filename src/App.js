@@ -6,8 +6,10 @@ import store from "./store";
 import Company from "./Component/Company"
 import CompanyList from "./Component/CompanyList"
 
+
 import imgg from './G.png';
 import imgg2 from './imggs/img20082021.png';
+import imgg3 from './imggs/img21082021.png'; 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -18,6 +20,19 @@ function App() {
       <div>
 
       <div >
+        <div className="ta3">          
+         ANDABA HACIENDO CORAZONES, BONITAAAAAAAAAAAAAAAAAAAAAA
+        </div>
+        <div className="imgg2">
+          <img src={imgg3} className="imgg2" alt="SADA"></img>
+        </div>
+        <div className="ta3">TE AMOOOOOOOOOOOOO BRAVA</div>
+        <h1>21/08/2021</h1>
+      </div>
+
+      
+
+      <div className="nomostrar">
         <div className="ta2">          
           BESITOOOOOOOOOOS, BESOOOOOOOOOOOOOOOTES BISCOCHO HERMOSA
         </div>
@@ -27,7 +42,6 @@ function App() {
         <div className="ta2">TE EXTAÑO COMO NUNCA</div>
         <h1>20/08/2021</h1>
       </div>
-
 
       <div className="nomostrar">
         <div className="ta">

@@ -57,6 +57,15 @@
   color: greenyellow;
 }
 
+.ta3 {
+  width: auto;
+  height: auto; 
+  background-color: firebrick;
+  color:lawngreen;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .nomostrar{
   display: none;
 }
