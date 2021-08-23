@@ -66,6 +66,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.ta4{
+  background-image: url("https://www.tarjetaz.com/wp-content/uploads/2015/07/corazones-animados.gif");
+}
+
 .nomostrar{
   display: none;
 }

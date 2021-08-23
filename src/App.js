@@ -10,6 +10,7 @@ import CompanyList from "./Component/CompanyList"
 import imgg from './G.png';
 import imgg2 from './imggs/img20082021.png';
 import imgg3 from './imggs/img21082021.png'; 
+import imgg4 from './imggs/img22082021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -19,7 +20,18 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div >
+      <div className="ta4">
+        <div className="ta3">          
+         NO ME HE OLVIDO DE TI, LAS COSITAS QUE HAGO TAL VEZ SON POCO, PERO SI ES DE TU AGRADO SOLO DISFRUTA LA IMAGEN Y SONRIELE POR QUE TODO LO QUE HE VIVIDO CON USD PARA MI LO HA SIDO TODO, Y CUANDO ESTE BIEN VIEJITA Y YO YA NO ESTE TE VAS A REIR, DE LAS TONTERIAS QUE HACIA POR TI 
+        </div>
+        <div className="imgg2">
+          <img src={imgg4} className="imgg2" alt="SADA"></img>
+        </div>
+        <div className="ta3">TE AMO, MUCHOOOOOOOOOOOOOOOOOOOOOOOTE, ASI COMO CUANDO TE ENAMORAS POR PRIEMRA VEZ</div>
+        <h1>22/08/2021</h1>
+      </div>
+
+      <div className="nomostrar">
         <div className="ta3">          
          ANDABA HACIENDO CORAZONES, BONITAAAAAAAAAAAAAAAAAAAAAA
         </div>
