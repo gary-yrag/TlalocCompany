@@ -50,6 +50,8 @@
   color: yellow;
 }
 
+
+
 .ta2 {
   width: auto;
   height: auto; 
@@ -72,6 +74,14 @@
 
 .ta5{
   background-image: url("https://acegif.com/wp-content/gifs/sun-43.gif");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ta6{
+  background-image: url("https://www.misimagenesdeamor.com/wp-content/uploads/2016/07/corazon-brillante.gif");
+  background-repeat: repeat;
+  font-family: monospace;
+  padding: 0 1rem;
 }
 
 .nomostrar{

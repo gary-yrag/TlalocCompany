@@ -12,6 +12,7 @@ import imgg2 from './imggs/img20082021.png';
 import imgg3 from './imggs/img21082021.png'; 
 import imgg4 from './imggs/img22082021.png';
 import imgg5 from './imggs/img23082021.png';
+import imgg6 from './imggs/img24082021.png';
 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
@@ -22,7 +23,24 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta5">
+      <div className="ta6">
+        
+        <div className="center">
+          <div className="ta">          
+          Te amooooooooooo Luisa Fernanda, Mujer hermosa, preciosa de mi vida; todo lo que me imagino con Usted solamente es la vida 
+          </div>
+          <div className="imgg2">
+            <img src={imgg6} className="imgg2" alt="SARA"></img>
+          </div>
+          <div className="ta">
+          Siempre La he esperado, con mi sinseridad y con todo el amor que siento, Te amo Sara siempre
+          <br/>
+          <span>24/08/2021</span>
+          </div>         
+        </div>       
+      </div>
+
+      <div className="nomostrar">
         <div className="ta">          
          TE AMO, ME AMAS ME AMAS ME AMAS ME AMAS ????????????????????????????, 
         </div>
