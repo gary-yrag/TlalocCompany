@@ -13,6 +13,7 @@ import imgg3 from './imggs/img21082021.png';
 import imgg4 from './imggs/img22082021.png';
 import imgg5 from './imggs/img23082021.png';
 import imgg6 from './imggs/img24082021.png';
+import imgg7 from './imggs/img25082021.png';
 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
@@ -23,7 +24,30 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta6">
+      <div className="ta7">
+        
+        <div className="center">
+          <div className="ta">          
+        Quien te ama, no te olvida, yo te agradezco por los momentos que pasamos juntos, 
+        y por los pensamientos que tal ves tenia Usted con yo,  
+        para mi no es facil todo esto de estar asi. 
+        Yo todavia me acuerdo de sus sonrisas.
+        Te ammooooooooooo Luisa
+          </div>
+          <div className="imgg2">
+            <img src={imgg7} className="imgg2" alt="SARA"></img>
+          </div>
+          <div className="ta">
+          Sabes solo el tiempo te dira quien yo soy, y todo lo que he llorado por tí. Te quiero mucho, te amo muchisimo.
+          <br/>Para Sara
+          <br/>
+          <span>25/08/2021</span>
+          </div>         
+        </div>       
+      </div>
+
+
+      <div className="ta6 nomostrar">
         
         <div className="center">
           <div className="ta">          

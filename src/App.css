@@ -84,6 +84,13 @@
   padding: 0 1rem;
 }
 
+.ta7{
+  background-image: url("https://c.tenor.com/6bVINDSiLrkAAAAi/hearts-heart.gif");
+  background-repeat: repeat;
+  font-family: monospace;
+  padding: 0 1rem;  
+}
+
 .nomostrar{
   display: none;
 }
