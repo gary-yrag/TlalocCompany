@@ -14,6 +14,8 @@ import imgg4 from './imggs/img22082021.png';
 import imgg5 from './imggs/img23082021.png';
 import imgg6 from './imggs/img24082021.png';
 import imgg7 from './imggs/img25082021.png';
+import imgg8 from './imggs/img26082021.png';
+
 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
@@ -23,8 +25,30 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+      <div className="ta8">
+        
+        <div className="center">
+          <div className="ta">          
+        MI SARA, TE AMO MI AMOR, en todo lo que he hecho siempre a estado Usted en mi imaginacion y mi vida, La he esperado firmemente, todo este tiempo 
+        para ver si podiamos ser algo mas que amor. Mi amor por Usted no va a cambiar si no con la muerte.
+          </div>
+          <div className="imgg2">
+            <img src={imgg8} className="imgg2" alt="AMOR"></img>
+          </div>
+          <div className="ta">
+          Siempre la voy a amar como Usted es, por que sé cuando estamos juntos podemos compartir muchas cosas. 
+          Lo que Necesito en mi vida eres Tu. Solamente Tu, por que eres el licor de mi amor y pasion, por la vida. Te amo hasta en la lejania.
+          <br/>
+          Aunque los recuerdos me abruman la vida, al saber que no esta Usted a mi lado. 
+          Te amo, te amo. Te amo y la extraño, Muchisimo.<br/>          
+          <span>26/08/2021</span>
+          </div>         
+        </div>       
+      </div>
 
-      <div className="ta7">
+
+
+      <div className="nomostrar">
         
         <div className="center">
           <div className="ta">          
