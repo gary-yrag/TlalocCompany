@@ -15,6 +15,7 @@ import imgg5 from './imggs/img23082021.png';
 import imgg6 from './imggs/img24082021.png';
 import imgg7 from './imggs/img25082021.png';
 import imgg8 from './imggs/img26082021.png';
+import imgg9 from './imggs/img27082021.png';
 
 
 
@@ -25,7 +26,30 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      <div className="ta8">
+
+      <div className="ta9">
+        
+        <div className="center">
+          <div className="ta2">          
+       Un dia menos sin Usted a mi lado, solo para decirle que la amo, te amo te amo mas que siempre, 
+       te extraño muchoooote, espero le este yendo muy bien en su vida y sus cosas, recuerde que siempre estare para Ti.
+      Besiiiiiiiiiiiiiiitos, besssssiiiiitos. Te amo amor.
+          </div>
+          <div className="imgg2">
+            <img src={imgg9} className="imgg2" alt="MI SADA"></img>
+          </div>
+          <div className="ta2">
+        Y como no extrañarla si esta en todo mi ser.
+          <br/>
+         Cuidate mi muñeca preciosa, hermosa de mi vida.<br/>          
+          <span>27/08/2021</span>
+          </div>         
+        </div>       
+      </div>
+
+
+
+      <div className="nomostrar">
         
         <div className="center">
           <div className="ta">          

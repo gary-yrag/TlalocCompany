@@ -98,6 +98,13 @@
   padding: 0 1rem;
 }
 
+.ta9{
+  background-image: url("https://i.pinimg.com/originals/c4/9a/69/c49a692a5a5710756ec912fff3623b9f.gif");
+  background-repeat: repeat;
+  font-family: monospace;
+  padding: 0 1rem;  
+}
+
 .nomostrar{
   display: none;
 }
