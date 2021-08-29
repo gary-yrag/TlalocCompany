@@ -16,8 +16,7 @@ import imgg6 from './imggs/img24082021.png';
 import imgg7 from './imggs/img25082021.png';
 import imgg8 from './imggs/img26082021.png';
 import imgg9 from './imggs/img27082021.png';
-
-
+import imgg10 from './imggs/img28082021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -26,8 +25,30 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+      <div className="ta10">        
+        <div className="ta10center">
+          <div className="ta2">          
+          Luisa, La extraño, me gustas y me encantas asi como cuando todo mi amor por ti se convirtió en una locura.
+          <br/>
+          A pesar del tiempo y la distancia Mi amor por Usted siempre es sincero, te amo muchisimo asi como cuando Usted me hacia dibujos.
+          </div>
+          <div className="ta10imagen">
+            <img src={imgg10} className="ta10imagen" alt="MI SADA" height="200px" width="200px"></img>
+          </div>
+          <div className="ta2">
+          Mi niña preciosa. Espero se encuentre muy bien y que su dia haya sido muy bonito asi como Usted, 
+      te amo, gracias por leer estos mensajes espero le gusten por que los hago con mucho cariño.
+        
+          <br/>
+          Tu Eres como mi agua y fuego de mi vida para respirar y vivir, estas en cada parte de mi corazon y cerebro, 
+          por que a cada momento me pregunto que hará Luisa, donde estará, como estará, Asi como mi vida la extraña, mis abrazos la extrañan, mis labios la extrañan, el Gary te extraña y vive triste por que Usted no esta.
+         TE AMO SARA DE MI VIDA.<br/>          
+          <span>28/08/2021</span>
+          </div>         
+        </div>       
+      </div>
 
-      <div className="ta9">
+      <div className="ta9 nomostrar">
         
         <div className="center">
           <div className="ta2">          

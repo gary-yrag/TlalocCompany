@@ -105,6 +105,30 @@
   padding: 0 1rem;  
 }
 
+
+.ta10{
+  background-image: url("https://acegif.com/wp-content/uploads/gif-heart-8.gif");
+  background-repeat: repeat;
+  font-family: fantasy;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ta10center{
+  border: 1px dashed goldenrod;
+  height: auto;
+  width: 200px;
+}
+
+.ta10imagen{
+  border: 1px dashed goldenrod;
+  height: 200px;
+  width: 200px;
+}
+
 .nomostrar{
   display: none;
 }
