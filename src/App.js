@@ -17,6 +17,8 @@ import imgg7 from './imggs/img25082021.png';
 import imgg8 from './imggs/img26082021.png';
 import imgg9 from './imggs/img27082021.png';
 import imgg10 from './imggs/img28082021.png';
+import imgg11 from './imggs/img29082021.jpg';
+
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -25,7 +27,37 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      <div className="ta10">        
+
+      <div className="ta11">        
+        <div className="ta10center">
+          <div className="ta2">          
+          Yo por aca de nuevo intentando escribirle mis pensmientos, 
+          siempre le digo que no me deje es lo primero que se pone en la mente cuando ya no me dice nada, 
+          a veces es triste sentir siempre lo mismo y esperar las desiciones de los demas. 
+          Si usted ya decidio abandonar es mejor que lo haga, por que el tiempo no la va esperar despues.
+          Yo pues voy a seguir escribiendo esto hasta que ya no pueda, y se me pase.
+          Espero este muy bien, con sus cosas
+          <br/>
+          Al final me alegra volverle a escribir, siempre me alegra escucharla, por que mi corazon se pone nervioso, no me olvides sara.
+         Siempre te he amado desde mi amor, oscuridad y mi rotundo karma, 
+          asi la vida se me este llendo siempre voy a estar para Usted
+          te amo te amo te amo te amo te amo, asi como cuando te hablan al oido, asi como cuando te besan, asi como cuando te quieren, te amo asi como cuando necesitas a alguien, te extraño.
+          </div>
+          <div className="ta2">    
+          <div className="ta10imagen">
+            <img src={imgg11} className="ta10imagen" alt="MI SADA" height="300px" width="200px"></img>
+          </div>
+Por aca todavia guardo todo lo que tengo de ti, pues no tengo 
+mas que compartirte por que esta como lejos y eso alla no llega servientrega
+          <br/>
+         Te amo.<br/>          
+          <span>29/08/2021</span>
+          </div>         
+        </div>       
+      </div>
+
+
+      <div className="ta10 nomostrar">        
         <div className="ta10center">
           <div className="ta2">          
           Luisa, La extraño, me gustas y me encantas asi como cuando todo mi amor por ti se convirtió en una locura.

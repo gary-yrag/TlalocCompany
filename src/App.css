@@ -117,6 +117,17 @@
   justify-content: center;
 }
 
+.ta11{
+  background-image: url("https://acegif.com/wp-content/uploads/gif-heart-10.gif");
+  background-repeat: repeat;
+  font-family: fantasy;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .ta10center{
   border: 1px dashed goldenrod;
   height: auto;
@@ -129,6 +140,14 @@
   width: 200px;
 }
 
+.ta11imagen{
+  border: 1px dashed goldenrod;
+  height: 300px;
+  width: 200px;
+}
+
 .nomostrar{
   display: none;
 }
+
+
