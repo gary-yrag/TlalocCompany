@@ -18,7 +18,7 @@ import imgg8 from './imggs/img26082021.png';
 import imgg9 from './imggs/img27082021.png';
 import imgg10 from './imggs/img28082021.png';
 import imgg11 from './imggs/img29082021.jpg';
-
+import imgg12 from './imggs/img30082021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -27,8 +27,33 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+      <div className="ta12">        
+        <div className="ta10center">
+          <div className="ta3">          
+          Hola amor mio. Mmm Como esta, que hace.
+          Espero este muy bien, y le este llendo muy bien, y que se acuerde de mi, como yo lo hago a cada rato, especialmente todas las noches antes de dormir
+          para ver si te encuentro en mis sueños; hoy le queria escrbir cosas bonitas, por que puede que no haya un mañana para hacerlo.
 
-      <div className="ta11">        
+          Extrañandola, por que no me escribe ni un hola, te amo siempre lo hago, porque pensar en ti me hace feliz, y saber que esta viva me dan ganas de vivir, 
+          por que yo no he abandonado la ilusion de estar con usted todos los dias, haciendola enojar y abriendole las ventanas para que se despierte.
+          
+          </div>
+          <div className="ta3">    
+          Adivine de quien son estas bonitos pies.
+          <div className="ta10imagen">
+            <img src={imgg12} className="ta10imagen" alt="MI SADA" height="300px" width="200px"></img>
+          </div>
+          Hasta sus pies sexys me gustan. jejej te amo, bessshhitos
+
+          Espero tenga una bonita noche, que duerma mucho y que me sueñe arto.
+          <br/>
+         Te amo, te amo. Te amo, te amo, muack, besitos mojados para usted.<br/>          
+          <span>30/08/2021</span>
+          </div>         
+        </div>       
+      </div>
+
+      <div className="ta11 nomostrar">        
         <div className="ta10center">
           <div className="ta2">          
           Yo por aca de nuevo intentando escribirle mis pensmientos, 
