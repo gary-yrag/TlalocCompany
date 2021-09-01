@@ -19,6 +19,7 @@ import imgg9 from './imggs/img27082021.png';
 import imgg10 from './imggs/img28082021.png';
 import imgg11 from './imggs/img29082021.jpg';
 import imgg12 from './imggs/img30082021.png';
+import imgg13 from './imggs/img31082021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -27,7 +28,55 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      <div className="ta12">        
+
+      <div className="ta13">        
+        <div className="ta13center">
+          <div className="ta3">          
+          Hola Mi amor Luisa, Hoy le hice un poema.
+          </div>
+          <div className="ta3">    
+          Si recuerda, alguna vez le dije que le bajaria la luna, aun asi Yo sabia era pesada para mi solo, 
+          pues aca solo tengo dos brazos; hoy tambien le digo que se la bajaria, pero ya no me creeria, 
+          pues al final solo es una luna que para nada le servira, 
+          solamente da mucha luz y hasta tu corazon pone a inquietar. 
+          <br/> 
+          Hoy Entiendo, que es mas facil mirar al cielo y sentirte acompañado por que miras que algo existe, 
+          y que de alguna manera es real, y si Yo hubiera podido entregarle esa luna, HOY 
+          ya no la verian ni Tu ni yo ni nadie mas, entonces ya no habria luz ni mucho menos amor con intensidad.          
+          
+          Entonces, hoy te entregaria el sol, pues ese es mas grande tambien da mucho calor 
+          y de alguna manera me mataria al regalarselo,
+          pero eso no importa al fin verla feliz es lo que quisiera nada mas.
+          <br/>
+          Alguna ves estuve tan loco para pensar eso, asi, "si asi" "asi como siempre lo he sido con Usted" 
+          que desde que llego usted a mi vida no he parado de pensar, 
+          como hacer para dejar de amarla, olvidarte y no quererte mas. 
+          <br/>
+          Pues al contrario hoy mas que nunca, muy cuerdo estoy, 
+          le digo casese con migo por que seria mi felicidad, 
+          no se si la tuya todavia lo será, si no es asi, 
+          le toca conformarse con una luna que es mas liviana que un sol no mas.
+
+          <div className="ta13imagen">
+            <img src={imgg13} className="ta13imagen" alt="MI SARA"  ></img>
+          </div>
+
+          <div>
+          Hoy, le digo la extraño como una roca quiere su pedaso de tierra con el que nacio, 
+          y te amo como siempre lo ha sido desde que alguna ves la mire y mi corazon y vda intensa se volvio. 
+          <br/>
+          Esto solo es para Ti y nadie mas, pues el dia que yo ya no este ya no existira,. 
+          Te amo con todo mi corazon, 
+          y si tal ves le hubiese hecho 1.825 de estos escritos, estuviese usted en algun lugar y a mi no me llamaran Gary. <br/>           
+          Te amo muchote muchote. besos mi vida.
+          <span>31/08/2021</span>
+          </div>
+         
+          </div>         
+        </div>       
+      </div>
+
+      <div className="ta12 nomostrar">        
         <div className="ta10center">
           <div className="ta3">          
           Hola amor mio. Mmm Como esta, que hace.
