@@ -20,6 +20,7 @@ import imgg10 from './imggs/img28082021.png';
 import imgg11 from './imggs/img29082021.jpg';
 import imgg12 from './imggs/img30082021.png';
 import imgg13 from './imggs/img31082021.png';
+import imgg14 from './imggs/img01092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -29,7 +30,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta13">        
+      <div className="ta14">        
+        <div className="ta14center">
+          <div className="ta14texto">          
+          Holaaa amor, como esta. yo pensandola mucho mucho todos los dias mas que nunca
+          </div>
+          <div className="ta14texto">    
+          A veces me pongo a pensar, y recuerdo los momentos que pasamos, cuando nos estabamos conociendo un poco, 
+          Esos bonitos recuerdos de Usted que no se pueden borrar, espero no me olvides mi Luisa,
+          por que no sabria que hacer sin ti. 
+          <br/>
+          Solamente usted es la dueña de mi corazon y mi amor, tambien es mi inspiracion para seguir viviendo 
+          y hacer cosas 
+          <div className="ta14imagen">
+            <img src={imgg14} className="ta14imagen" alt="sara amor"  ></img>
+          </div>
+A pesar de la distancia que tenemos, siempre he seguido con usted en mi vida y siempre la he esperado, 
+pensando que algun dia estaremos juntos, 
+eso seria muy bonito para mi, verte todos los dias seria mi felicidad.
+<br/>
+teamo, te amo, besitos, Que duerma y sueñe con yop.
+          <div>          
+          <span>01/09/2021</span>
+          </div>
+          </div>         
+        </div>       
+      </div>
+
+      <div className="ta13 nomostrar">        
         <div className="ta13center">
           <div className="ta3">          
           Hola Mi amor Luisa, Hoy le hice un poema.

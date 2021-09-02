@@ -162,6 +162,37 @@
   width: 300px;
 }
 
+.ta14{
+  background-image: url("https://acegif.com/wp-content/uploads/gif-heart-45.gif");
+  background-repeat: repeat;
+  font-family: fantasy;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.ta14texto{
+  background-color: firebrick;
+  color:cadetblue;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ta14center{
+  border: 1px dashed goldenrod;
+  height: auto;
+  width: 300px;
+}
+
+.ta14imagen{
+  border: 1px dashed goldenrod;
+  height: 300px;
+  width: 300px;
+}
 
 
 .ta10center{
