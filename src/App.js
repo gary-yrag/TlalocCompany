@@ -21,6 +21,7 @@ import imgg11 from './imggs/img29082021.jpg';
 import imgg12 from './imggs/img30082021.png';
 import imgg13 from './imggs/img31082021.png';
 import imgg14 from './imggs/img01092021.png';
+import imgg15 from './imggs/img02092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -30,7 +31,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta14">        
+      <div className="ta15">        
+        <div className="ta15center">
+          <div className="ta15texto">          
+        Mi Sara, amor mio, a donde estas, te amo, te extraño mas que nunca, no me deje morir.
+          </div>
+          <div className="ta15texto">    
+        Hoy le escribo, pensando saber si aun lee lo que hago y pienso, por que si no al viento se va todo esto, y a ese no le gustan las cartas, hoy todo el dia estoy recordandola asi como siempre, 
+        me inquieta saber como estas mi muñeca hermosa de mi vida, quisiera que este muy bien y agradable con su vida, 
+        ya que todavia no estamos juntos, te amo. 
+          <br/>
+        Ya no duermo bien, por pensarla, cualquier dia me vas a matar con un paro, 
+        pero no importa asi tal vez sea mejor, 
+        te amo te amoo, asi como cuando su Mami la vio nacer y miró que debajo de sus piernas salia una niña tan bonita. 
+        Te amo asi como dice en el tarro te amo Luisa como nadie lo hará
+          <div className="ta15imagen">
+            <img src={imgg15} className="ta15imagen" alt="te amo"  ></img>
+          </div>
+          Espero la vida la acompañe y le brille para siempre, 
+          siempre estare con tigo aun que sea en espiritu, deseandole y soñando lo mejor para Usted, por que algun dia me voy a meter en tus sueños, para no dejarte dormir y le jalo los pelos.
+<br/>
+Para mi no es facil olvidarme de ti, te amo muchote, asi de intenso y canson soy esperandote amor mio
+Besootes en los cachetes, te amooooooooooooooooooooooooooo, te amoooooo para toda la vida. Y todavia ando chillando asi como cuando se te ocurria dejarme solo, te amo querida Fernanda.
+          <div>          
+          <span>02/09/2021</span>
+          </div>
+          </div>         
+        </div>       
+      </div>
+
+      <div className="ta14 nomostrar">        
         <div className="ta14center">
           <div className="ta14texto">          
           Holaaa amor, como esta. yo pensandola mucho mucho todos los dias mas que nunca
