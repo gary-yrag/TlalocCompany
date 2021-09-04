@@ -22,6 +22,7 @@ import imgg12 from './imggs/img30082021.png';
 import imgg13 from './imggs/img31082021.png';
 import imgg14 from './imggs/img01092021.png';
 import imgg15 from './imggs/img02092021.png';
+import imgg16 from './imggs/img03092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -31,7 +32,40 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta15">        
+      <div className="ta16">        
+        <div className="ta16center">
+          <div className="ta16texto">          
+        Te quiero y la amo mas que siempre mi Luisa, hoy andaba pensandola mucho.        
+          </div>
+          <div className="ta16texto">    
+        Espero Usted este muy bien en todas sus cosas, te amo para siempre Luisa, espero algun dia poder verla, 
+        me gusta saber que estara bien. 
+        <br/>
+        Se que sus cosas van mas alla de mi, aun asi la estimo mucho por todo lo que hemos vivido, yo no me he olvidado de ti nunca, 
+        a pesar de mi silencio, esperandola siempre igual que un cachorro espera su mamí.
+        <br/>
+        Todavia me recuerdo de esos momentos que escapan muy rapido en el tiempo por lo cortos que son.
+        <br/>
+        A veces pienso que mi tiempo va pasando muy rapido y no veo lo que quiero para mi 
+        y solo miro mis puertas de salida, pensando que lo que debia hacer ya esta hecho. 
+<br/>
+Pero esto es es el mundo, que solo da lo que alguna ves se guardo. te amo, 
+no me olvides, por que mi amor es eterno para ti 
+
+          <div className="ta16imagen">
+            <img src={imgg16} className="ta16imagen" alt="te amo"  ></img>
+          </div>
+          <div>
+        Cuidate bebe hermosa, besitos, te extraño.
+          </div>
+          <div>          
+          <span>03/09/2021</span>
+          </div>
+          </div>         
+        </div>       
+      </div>
+
+      <div className="ta15 nomostrar">        
         <div className="ta15center">
           <div className="ta15texto">          
         Mi Sara, amor mio, a donde estas, te amo, te extraño mas que nunca, no me deje morir.
