@@ -23,6 +23,7 @@ import imgg13 from './imggs/img31082021.png';
 import imgg14 from './imggs/img01092021.png';
 import imgg15 from './imggs/img02092021.png';
 import imgg16 from './imggs/img03092021.png';
+import imgg17 from './imggs/img04092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -31,8 +32,44 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+Mi amor, de nuevo yo por aca, como esta que hace.
+      <div className="ta17">        
+        <div className="ta17center">
+          <div className="ta17texto">          
+        Sabes, te amo mi Sara, te amo tanto por eso se lo digo, 
+        con usted aprendí a decir te amo y a sentir cosas bonitas, tambien aprendi a escirbir cartas,.
+        <br/>
+        Quisiera este con migo para toda la vida, pero yo soy solo un hombre, con intensiones de ti.
+        <br/>
+        Siempre ha sido asi, se que en mi ser Usted es la persona con quien quiero mi vida, 
+        por que para mi eres mi ilusion, 
+        que a veces se desvanece por que la vida quiere las cosas dificiles para mi.
+          </div>
+          <div className="ta17texto">    
+       <div>
+         
+       </div>
+Esas naricessss, 
+          <div className="ta17imagen">
+            <img src={imgg17} className="ta17imagen" alt="Esas ñiscas"  ></img>
+          </div>
+          <div>
+        Mi hermosa, para mi eres mi preciada muñeca de vidrio, te amooo, 
+        asi ya se quiera ir poco a poco de mi lado, la comprendo, 
+        pero quisiera me lo dijera con su propia boquita linda 
+         para perderme en mi cielo. Y no hacerla leer estas cosas. 
+         Pero despues de todo quien soy yo para decirle que haga
+         <br/>
+         Yo te amo, asi sera siempre, despues de todo, mi amor y esfuerzo solo es para ti.
+          </div>
+          <div>          
+          <span>04/09/2021</span>
+          </div>
+          </div>         
+        </div>       
+      </div>      
 
-      <div className="ta16">        
+      <div className="ta16 nomostrar">        
         <div className="ta16center">
           <div className="ta16texto">          
         Te quiero y la amo mas que siempre mi Luisa, hoy andaba pensandola mucho.        
