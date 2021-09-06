@@ -24,6 +24,7 @@ import imgg14 from './imggs/img01092021.png';
 import imgg15 from './imggs/img02092021.png';
 import imgg16 from './imggs/img03092021.png';
 import imgg17 from './imggs/img04092021.png';
+import imgg18 from './imggs/img05092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -32,10 +33,54 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-Mi amor, de nuevo yo por aca, como esta que hace.
-      <div className="ta17">        
+
+      <div className="ta18">        
+        <div className="ta18center">
+          <div className="ta18texto">    
+        Amoooooor, mi amor donde esta hermosa. le mando saludos y besitos desde aca
+        <br/>              
+        Hoy andaba pensandola, queriendo saber que haces, pero jummm. 
+        <br/>
+        Saber que no me presta atencion, no es bueno para mi, 
+        a veces solo siento que quiere que no moleste mas; 
+        de todos modos siempre te he pensado antes de dormir entonces para mi no cambia nada escribirle. 
+        <br/>
+        Mmm, Yo siempre la valoro a Usted y de alguna manera siempre he estado para ti. Pues para mi Usted es muy importante.
+        <br/>
+        Te amo.
+        </div>        
+          
+       <div className="ta18texto">    
+        Hay le mando unos conejitos. 
+       </div>
+          <div className="ta18imagen">
+            <img src={imgg18} className="ta18imagen" alt="Esas ñiscas"  ></img>
+          </div>
+          <div className="ta18texto">    
+        Te amo infinitamente, de alguna manera lo sabe, lastimosamente a su vida siempre llego tarde.        
+         <br/>
+         Quisiera que me lleves con tigo a tus misterios, 
+         pues la vida es muy corta para estar por aca mucho tiempo, 
+         para asi sentir su existencia y mirarla en la profundidad de sus sueños, 
+         y despertarla todos los dias con un abrazo y un beso tambien.
+         <br/>
+         Poco a poco ya se que me tengo que ir, 
+         pero a mi me duele mucho dejar mis pensamientos con usted, por eso 
+         quisiera estar mas cerca de ti, para que no de duela tanto y no apagar mi vida.
+         <br/>
+         te amo mucho Luisa, no importa que tu amor me enflaque. 
+          </div>
+          <div className="ta18texto">            
+          <span>05/09/2021</span>
+          </div>            
+        </div>       
+      </div>        
+
+      <div className="ta17 nomostrar">        
         <div className="ta17center">
-          <div className="ta17texto">          
+          <div className="ta17texto">    
+          Mi amor, de nuevo yo por aca, como esta que hace.
+          <br/>      
         Sabes, te amo mi Sara, te amo tanto por eso se lo digo, 
         con usted aprendí a decir te amo y a sentir cosas bonitas, tambien aprendi a escirbir cartas,.
         <br/>
