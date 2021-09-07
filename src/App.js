@@ -25,6 +25,7 @@ import imgg15 from './imggs/img02092021.png';
 import imgg16 from './imggs/img03092021.png';
 import imgg17 from './imggs/img04092021.png';
 import imgg18 from './imggs/img05092021.png';
+import imgg19 from './imggs/img06092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -34,7 +35,46 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta18">        
+      <div className="ta19">        
+        <div className="ta19center">
+          <div className="ta19texto">    
+      Saaara, amor mio, te extraño, besoos, por aca escribiendole cositas. Todvia le digo amor.
+        </div>        
+          
+       <div className="ta19texto">    
+       Te amo mi Luisa, deseandole lo mejor, que su vida siempre brille, que Dios la acompañe siempre.
+       <br/>
+       Me gusta ver sus fotos amor.
+       </div>
+          <div className="ta19imagen">
+            <img src={imgg19} className="ta19imagen" alt="Amor mio"  ></img>
+          </div>
+          <div className="ta19texto">    
+       Boniiiita, mi muñeca te quiero mi vida.
+       <br/> 
+       Siempre te he extrañado, cada dia mas te añoro, quisiera estes siempre con migo, 
+       siempre me miro con Usted a veces es algo que no tiene fin, aun asi creo que 
+       mis pensamientos se van a refundir en la tierra con migo mismo, Yo deseo lo mejor para ti, 
+       asi como yo la necesito para ser feliz, para mi solo tu eres suficiente para irme feliz. 
+<br/>
+Sabes todo mi cariño amor y felicidad, solo le pertenece a Usted, es tan asi que aun recuerdo cada momento que 
+pase con Usted, eso es lo unico que tengo.
+<br/>
+Se que solamente Usted es la persona que llena mi vida y mi ser de felicidad, 
+para que mis ojos brillen y quiera volar de nuevo en el infinito. 
+<br/>
+Aun asi mi avismo poco a poco me lleva ya inevitablemente, 
+pues no puedo dejar de pensarte y mi corazon se parte cada vez mas. 
+<br/> 
+    TE amo sara. Te extraño mucho mi amor.
+          </div>
+          <div className="ta19texto">            
+          <span>06/09/2021</span>
+          </div>            
+        </div>       
+      </div>   
+
+      <div className="ta18 nomostrar">        
         <div className="ta18center">
           <div className="ta18texto">    
         Amoooooor, mi amor donde esta hermosa. le mando saludos y besitos desde aca
