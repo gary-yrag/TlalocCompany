@@ -26,6 +26,7 @@ import imgg16 from './imggs/img03092021.png';
 import imgg17 from './imggs/img04092021.png';
 import imgg18 from './imggs/img05092021.png';
 import imgg19 from './imggs/img06092021.png';
+import imgg20 from './imggs/img07092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -35,7 +36,31 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta19">        
+      <div className="ta20">        
+        <div className="ta20center">
+          <div className="ta20texto">    
+      Mi sara, te amo mi amor, extrañanola mucho siempre. 
+        </div>        
+          
+       <div className="ta20texto">    
+      Quisiera el mundo fuera mas facil de vivir, al igual que para mi es facil quererla y extrañarla, 
+      al igual que es facil querer verla para darle besitos y abrazos y jalarle los pelos, 
+      ultimamente los dias se vuelven eternos pareciera que no tienen fin, 
+      pues se hace eterno mi vivir sin Usted.
+       </div>
+          <div className="ta20imagen">
+            <img src={imgg20} className="ta20imagen" alt="Mi amor mio"  ></img>
+          </div>
+          <div className="ta20texto">    
+      Te amoooooo Luisa Bravo, te quero mucho mi reina.
+          </div>
+          <div className="ta20texto">            
+          <span>07/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta19 nomostrar">        
         <div className="ta19center">
           <div className="ta19texto">    
       Saaara, amor mio, te extraño, besoos, por aca escribiendole cositas. Todvia le digo amor.
