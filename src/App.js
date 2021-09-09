@@ -27,6 +27,7 @@ import imgg17 from './imggs/img04092021.png';
 import imgg18 from './imggs/img05092021.png';
 import imgg19 from './imggs/img06092021.png';
 import imgg20 from './imggs/img07092021.png';
+import imgg21 from './imggs/img08092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -36,7 +37,33 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta20">        
+      <div className="ta21">        
+        <div className="ta21center">
+          <div className="ta21texto">    
+      Hola mi vida, Espero este muy bien, Te amo Sara,
+        </div>        
+          
+       <div className="ta21texto">    
+   Mmm Andaba pensando que seria de mi vida sin Usted, 
+   mmm te amo mucho asi ya quiera deshacerse de mi, mm te extraño todos los dias, 
+   Ahora mas que nunca. Solamente recordandole mi amor solo es para ti, 
+   no se si Usted me quiere, yo aun asi te amo desde siempre.
+<br/>
+Ya se me acabaron las imagenes, ahora le mando muñequitos.
+       </div>
+          <div className="ta21imagen">
+            <img src={imgg21} className="ta21imagen" alt="Te amo"  ></img>
+          </div>
+          <div className="ta21texto">    
+    Te amo mi amorstio querida.
+          </div>
+          <div className="ta21texto">            
+          <span>08/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta20 nomostrar">        
         <div className="ta20center">
           <div className="ta20texto">    
       Mi sara, te amo mi amor, extrañanola mucho siempre. 

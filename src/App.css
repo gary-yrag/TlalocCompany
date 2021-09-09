@@ -394,6 +394,41 @@
   opacity:0.95;
 }
 
+.ta21{
+  background-image: url("https://lh3.googleusercontent.com/-q4625iUqwTA/Wp2v8jd3cdI/AAAAAAAE2d0/npC8L_xi294tB8Et0o8jR3UoQJ6W76tagCHMYCw/s1600/rosas-thumb.gif");
+  background-repeat: repeat;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+
+  background-size: 300px 300px;
+}
+
+.ta21texto{
+  background-color:gold;
+  color:orangered;
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta21center{
+  border: 1px dashed goldenrod;
+  height: auto;
+  width: 350px;
+ 
+}
+
+.ta21imagen{
+  border: 1px dashed goldenrod;
+  height: 300px;
+  width: 350px;
+  opacity:0.95;
+}
 
 .ta10center{
   border: 1px dashed goldenrod;
