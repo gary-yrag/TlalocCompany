@@ -28,6 +28,7 @@ import imgg18 from './imggs/img05092021.png';
 import imgg19 from './imggs/img06092021.png';
 import imgg20 from './imggs/img07092021.png';
 import imgg21 from './imggs/img08092021.png';
+import imgg22 from './imggs/img09092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -37,7 +38,44 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta21">        
+      <div className="ta22">        
+        <div className="ta22center">
+          <div className="ta22texto">    
+     Hola mi amor, como estaaaaaaa, te amo mi vida mi cielo hermoso, te quiero muchooo mucho
+        </div>        
+          
+       <div className="ta22texto">    
+  Estuve soñandola un rato, todavia me quedo en mis pensamientos con Usted, de alguna manera la puedo ver mi Sara, 
+  te extraño cada dia y cada noche, siento que siempre te he necesitado, pero tal vez ya no hay un mañana para mi. 
+  donde quiera que este Usted yo le deseo que le vaya muy bien en sus cosas y que encuentre las mejores maneras 
+  de resolver la vida. 
+  <br/>
+  Siempre le digo que no me deje pues no sabria que hacer, 
+  solo pienso que seria mi perdicion, 
+  pero si Usted cree que yo ya no debo estar molestando en su vida y si eso es lo mejor 
+  para Usted yo entendere sus razones.
+  <br/>
+  Le hice un muñeco 
+       </div>
+          <div className="ta22imagen">
+            <img src={imgg22} className="ta22imagen" alt="Mi Sara"  ></img>
+          </div>
+          <div className="ta22texto">    
+   Te quero mucho mi Sara, tambien te amo asi en esta distancia aun asi, 
+   no se me ha perdido el pennsamiento de estar juntos, siempre pienso en eso, 
+   pero a veces solo pienso que eso solo esta en mi pensamiento. 
+   Si ya no me quiere querer por cualquier razon yo si le agradezco 
+   por tal ves haberme querido en mi vida.
+   <br/> Te amo
+   
+          </div>
+          <div className="ta22texto">            
+          <span>09/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta21 nomostrar">        
         <div className="ta21center">
           <div className="ta21texto">    
       Hola mi vida, Espero este muy bien, Te amo Sara,
