@@ -29,6 +29,7 @@ import imgg19 from './imggs/img06092021.png';
 import imgg20 from './imggs/img07092021.png';
 import imgg21 from './imggs/img08092021.png';
 import imgg22 from './imggs/img09092021.png';
+import imgg23 from './imggs/img10092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -38,7 +39,42 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta22">        
+      <div className="ta23">        
+        <div className="ta23center">
+          <div className="ta23texto">   
+          Te queroooooo mi vida te ama, te quiere y te extraña.
+          <br/> 
+    La vida y sus misterios son raros, para mi quisiera fuesen mas faciles de vivir, 
+    pero que habra aun mas alla de ti.
+    <br/> 
+    cada dia se que te he hido perdiendo de a poco y dolorosamente, y se que mis dias de oro se acaban, 
+    pues es un martirio cada dia, al final se que yo escogi esto al igual que la escogi a Usted, 
+    pensando un dia hivamos a estar juntos, pero no recordaba lo dificil que se ponen 
+    las cosas cada ves que se intentan hacer.
+    <br/>
+    Lo unico que se es que si la vida no me quiere mas, al final se cerraron con Usted ese es mi consuelo.
+    Asi como se que te he amado y te sigo amando perdidamente y cada dia se que te vas y no volveras al igual 
+    que yo me pierdo en cada entraña del mundo.    
+        </div>        
+          
+       <div className="ta23texto">    
+  Y Solamente me quedan los conejos con un corazon roto y morihundo asi como van llegando mis dias de nostalgia y perdicion.
+       </div>
+          <div className="ta23imagen">
+            <img src={imgg23} className="ta22imagen" alt="Para Luisa"  ></img>
+          </div>
+          <div className="ta23texto">    
+   Me pregunto por que no puedo hacer nada para cambiar las cosas, todo es dificil nada tiene respuestas
+   <br/>
+   Te amo Sara, Yo si le deseo sea feliz siempre siempre, no dejes de hacer y estar con las cosas y personas que le serviran en su vida.
+          </div>
+          <div className="ta23texto">            
+          <span>10/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta22 nomostrar">        
         <div className="ta22center">
           <div className="ta22texto">    
      Hola mi amor, como estaaaaaaa, te amo mi vida mi cielo hermoso, te quiero muchooo mucho
