@@ -30,6 +30,7 @@ import imgg20 from './imggs/img07092021.png';
 import imgg21 from './imggs/img08092021.png';
 import imgg22 from './imggs/img09092021.png';
 import imgg23 from './imggs/img10092021.png';
+import imgg24 from './imggs/img11092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -39,7 +40,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta23">        
+      <div className="ta24">        
+        <div className="ta24center">
+          <div className="ta24texto">   
+         Mi Saaada, mi muñeca hermosa, espero haya pasado un buen dia, 
+         casi no hablamos ya, pero me alegra poder saber que Usted al menos esta viva, 
+         esta lejos pero esta viva mi bonita, 
+         me gusta saber que Usted sigue adelante.
+        </div>        
+          
+       <div className="ta24texto">    
+  Mi coneja hermosa
+       </div>
+          <div className="ta24imagen">
+            <img src={imgg24} className="ta22imagen" alt="Para amor"  ></img>
+          </div>
+          <div className="ta24texto">    
+   Te amo, recuerde siempre que en mi corazon va estar aqui presente, 
+   siempre la tengo en mi pensamiento enamorado de ti, 
+    con un espacio grandoooote en mi..
+   Besitos Abrazos y pechuchos. Muchas caricias y tocaditas de orejas.. Muackkkk
+          </div>
+          <div className="ta24texto">            
+          <span>11/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta23 nomostrar">        
         <div className="ta23center">
           <div className="ta23texto">   
           Te queroooooo mi vida te ama, te quiere y te extraña.
