@@ -31,6 +31,7 @@ import imgg21 from './imggs/img08092021.png';
 import imgg22 from './imggs/img09092021.png';
 import imgg23 from './imggs/img10092021.png';
 import imgg24 from './imggs/img11092021.png';
+import imgg25 from './imggs/img12092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -40,7 +41,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta24">        
+      <div className="ta25">        
+        <div className="ta25center">
+          <div className="ta25texto">   
+            Hola amor. 
+            <br/>
+            Mi Sara te amo, al igual que siempre lo he hecho por durante se que existes, 
+            me duele todo mi vida, cada dia me parto mas al saber que no volveras por mi 
+            pero todavia no lo asimilo, a veces solo quiero acabar con yo, todavia no se como.
+            Espero este muy bien, que le vaya de maravilla mi corazoncito te amo. 
+          </div>        
+          
+       <div className="ta25texto">    
+ Se que ya no te caigo bien, 
+ al igual que cuando las estrellas se caen y no vuelven al cielo, 
+ hoy le dejo un osito mas roto que ayer y con mucha hambre.
+ Te amo por siempre cielo mio, besitos te amo. 
+       </div>
+          <div className="ta25imagen">
+            <img src={imgg25} className="ta25imagen" alt="Sada"  ></img>
+          </div>
+          <div className="ta25texto">    
+   
+          </div>
+          <div className="ta25texto">            
+          <span>12/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta24 nomostrar">        
         <div className="ta24center">
           <div className="ta24texto">   
          Mi Saaada, mi muñeca hermosa, espero haya pasado un buen dia, 
