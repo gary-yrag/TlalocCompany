@@ -32,6 +32,7 @@ import imgg22 from './imggs/img09092021.png';
 import imgg23 from './imggs/img10092021.png';
 import imgg24 from './imggs/img11092021.png';
 import imgg25 from './imggs/img12092021.png';
+import imgg26 from './imggs/img13092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -41,7 +42,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta25">        
+      <div className="ta26">        
+        <div className="ta26center">
+          <div className="ta26texto">   
+           Sara de mi vida, Te amo mujer hermosa del mundo, te extraño cielo bonita.
+           <br/> 
+           Cada dia que pasa se que es un dia menos sea para verte o verme morir, 
+           pero se que estas tu ahy y eres la persona que ilusiona mi vida y mi ser. 
+           Para mi Eres ese fuego vivo que no se apaga, tanto es de color rojo con sangre y mucho calor, 
+           por que eso es lo que es para mi su existencia, mi Luisa.
+          </div>        
+          
+       <div className="ta26texto">    
+          Besitos mi dormilona, la amo mujer de mi vida, hasta cada pedacito de oreja que tiene Usted.
+       </div>
+          <div className="ta26imagen">
+            <img src={imgg26} className="ta26imagen" alt="Mi Sara"  ></img>
+          </div>
+          <div className="ta26texto">    
+   Muchos pechuchos y abraaaazoooos
+   te amo teamo teamo te amo, 
+   asi como siempre lo hare hasta que ya deje de respirar algun germen de mis huesos. <br/> 
+   Realmente eres ese trozo de mi, que me hace falta para completar mi existencia y vivir.
+          </div>
+          <div className="ta26texto">            
+          <span>13/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta25 nomostrar">        
         <div className="ta25center">
           <div className="ta25texto">   
             Hola amor. 
