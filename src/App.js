@@ -33,6 +33,7 @@ import imgg23 from './imggs/img10092021.png';
 import imgg24 from './imggs/img11092021.png';
 import imgg25 from './imggs/img12092021.png';
 import imgg26 from './imggs/img13092021.png';
+import imgg27 from './imggs/img14092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -42,7 +43,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta26">        
+      <div className="ta27">        
+        <div className="ta27center">
+          <div className="ta27texto">   
+        Mi sara mi hermosa mujer de mi vida, te amo, te extraño, la quiero mucho.
+          </div>        
+          
+       <div className="ta27texto">    
+          Me gusta pensarla mi niña, imaginar que todavia me amas y vamos a estar 
+          juntos me hace feliz de alguna manera 
+          y siento que mi vida cambia de color. 
+          <br/>
+          Para mi eres muy querida, te amo, eres mi resavio mas preciado 
+          pues me gustas mucho, me haces falta en los dias y las noches, 
+          para jalarte los pelos y tocarle esas narices bonitas que tiene.
+          <br/>
+          Aqui le dejo una conejita bonita.
+       </div>
+          <div className="ta27imagen">
+            <img src={imgg27} className="ta27imagen" alt="Muñeeeca hermosa"  ></img>
+          </div>
+          <div className="ta27texto">    
+   Te amo cielo mio, espero le haya ido muy bien. Y que sueño con Yo. Besos y abrazos.
+          </div>
+          <div className="ta27texto">            
+          <span>14/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta26 nomostrar">        
         <div className="ta26center">
           <div className="ta26texto">   
            Sara de mi vida, Te amo mujer hermosa del mundo, te extraño cielo bonita.
