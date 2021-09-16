@@ -34,6 +34,7 @@ import imgg24 from './imggs/img11092021.png';
 import imgg25 from './imggs/img12092021.png';
 import imgg26 from './imggs/img13092021.png';
 import imgg27 from './imggs/img14092021.png';
+import imgg28 from './imggs/img15092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -43,7 +44,37 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta27">        
+      <div className="ta28">        
+        <div className="ta28center">
+          <div className="ta28texto">   
+        Hola amor, yo por aca escrbiendo cositas. Te quiero mucho hermosa.
+          </div>        
+          
+       <div className="ta28texto">    
+        A veces pienso que si estamos lejos es por algo que la vida quiere ser asi, 
+        es inevitable pensar en la soledad que el mundo tiene para cada persona, 
+        aun asi yo por aca te sigo esperando, todo puede ser un error, 
+        pero si es eso espero sea el mas grande, pues todavia no veo un mañana 
+        sin pensar que estemos juntos aun que sea un segundo de la vida.
+<br/>
+        Se que tienes que hacer muchas cosas, 
+        tanto asi que la vida cuando comienza no quiere terminar hasta que se le de un punto.
+        <br/>
+        Espero este Muy bien, que este haciendo su mejor esfuerzo, para seguir adelante.
+       </div>
+          <div className="ta27imagen">
+            <img src={imgg28} className="ta27imagen" alt="Sara de mi vida"  ></img>
+          </div>
+          <div className="ta28texto">    
+         Te amo, Te quiero mucho, mi corazon te ama y tiene un espacio inmenso para Usted.         
+          </div>
+          <div className="ta28texto">            
+          <span>15/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta27 nomostrar">        
         <div className="ta27center">
           <div className="ta27texto">   
         Mi sara mi hermosa mujer de mi vida, te amo, te extraño, la quiero mucho.
