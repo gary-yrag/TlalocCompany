@@ -35,6 +35,7 @@ import imgg25 from './imggs/img12092021.png';
 import imgg26 from './imggs/img13092021.png';
 import imgg27 from './imggs/img14092021.png';
 import imgg28 from './imggs/img15092021.png';
+import imgg29 from './imggs/img16092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -44,7 +45,43 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta28">        
+      <div className="ta29">        
+        <div className="ta29center">
+          <div className="ta29texto">   
+      Holaaaaaaaaaaaaaaa amorcito, yo haciendo cartas.
+          </div>        
+          
+       <div className="ta29texto">    
+       Sabes te amo en mi vida y me pone de felicidad que Usted este por ahyyy, 
+       
+       a veces no la molesto me distraigo para acabar el dia, 
+       se que Usted a veces anda ocupada tambien, 
+       aun asi espero siempre se acuerde de mi, para mi siempre es asi. <br/>
+       Estos tiempos son raros, 
+       Tu por alla en el otro lado donde hay papagallos golondrinas y animales, 
+       pero yo por aca mas lejos aun donde solo hay casas cuadradas y carros con ruido, 
+       es un poco injusto lo que hace el mundo donde nos toca vivir.
+       Aun asi se que el tiempo siempre acaba de alguna manera y en 
+       algun espaacio estaras tu para mi al menos en espiritu.  
+       <br/>
+       Mona hermosa
+       </div>
+          <div className="ta29imagen">
+            <img src={imgg29} className="ta29imagen" alt="Mi cosita bonita"  ></img>
+          </div>
+          <div className="ta29texto">    
+   Te amo, asi me muera yo se que te amo profundamente; 
+   aun que me quemen de la tierra volveré y te buscaré, 
+   hasta tal ves sea su amor perdido que alguna vez desecho pero volví para molestarla y sacarle sonrrizas y llantos.
+   <br/> Yo te amo Luisa.
+          </div>
+          <div className="ta29texto">            
+          <span>16/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta28 nomostrar">        
         <div className="ta28center">
           <div className="ta28texto">   
         Hola amor, yo por aca escrbiendo cositas. Te quiero mucho hermosa.
