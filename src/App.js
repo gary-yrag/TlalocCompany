@@ -36,6 +36,7 @@ import imgg26 from './imggs/img13092021.png';
 import imgg27 from './imggs/img14092021.png';
 import imgg28 from './imggs/img15092021.png';
 import imgg29 from './imggs/img16092021.png';
+import imgg30 from './imggs/img17092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -45,7 +46,42 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta29">        
+      <div className="ta30">        
+        <div className="ta30center">
+          <div className="ta30texto">   
+    sara.
+          </div>        
+          
+       <div className="ta30texto">    
+      Quisiera que los dias pasen muy lento para envejecer menos, 
+      pero a veces los quisiere rapido y ver que pasa mañana, 
+      aun asi los dias rapidos o lentos son iguales 
+      al final lo que se quiere hacer en un inicio se hará, tambien miro mi 
+      alrededor mmmm y es triste pero estas lejos, 
+      me consuelas por momentos en mi mente eso me hace esentir muy bien, diria feliz, 
+      me da calma, un poco de tranquilidad para poder hacer algo, 
+      yo se que todo lo que hacemos es por un mañana 
+      ya sea estar lejos o cerca las cosas y las vidas siguen su rumbo. 
+      <br/>
+      Aun asi en mi vida y mis emociones estas tu en mi frente, 
+      de repente te me presentas y se brillan los ojos, 
+      tal ves sigo enamorado de alguien que algun dia me cautivo, 
+      de ese amor que a veces se presenta en forma de mujer y no se va, hasta tal ves se llame Luisa o Fernanda o Sara.
+       </div>
+          <div className="ta30imagen">
+            <img src={imgg30} className="ta30imagen" alt="Mi cosita bonita"  ></img>
+          </div>
+          <div className="ta30texto">    
+ Te extraño a Ti a sus besos, hasta extraño como tomas café o agua panela, hasta como te ries, o como te enbravas.
+ Te amo y eso solo lo sabes tuuuuuuu Mi amor.
+          </div>
+          <div className="ta30texto">            
+          <span>17/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta29 nomostrar">        
         <div className="ta29center">
           <div className="ta29texto">   
       Holaaaaaaaaaaaaaaa amorcito, yo haciendo cartas.
