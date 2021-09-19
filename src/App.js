@@ -37,6 +37,7 @@ import imgg27 from './imggs/img14092021.png';
 import imgg28 from './imggs/img15092021.png';
 import imgg29 from './imggs/img16092021.png';
 import imgg30 from './imggs/img17092021.png';
+import imgg31 from './imggs/img18092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -46,7 +47,49 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta30">        
+      <div className="ta31">        
+        <div className="ta31center">
+          <div className="ta31texto">   
+          Mi amor, Me haces feliz como nunca, 
+          y siempre encuentro que esta Usted Sara. Eres lo que me cambia la vida.
+          <br/>
+    Sabes mi vida, a veces quisiera que el momento del mundo se acabara para mi, 
+    pues me conformo con mi pedazo de felicidad que he tenido con Usted, 
+    y de hay en adelante todo estuviese en vacio  solamente para mi, 
+    por que se de alguna manera voy a estar buscandote por siempre en el infinito 
+    para intentar estar con Usted, 
+     asi me haya convertido en un pedazo de arena se que la miraria como una brisna 
+     de piedra y me pegaria par estar a sus hombros.
+     <br/>
+    A veces no es facil para mi hacerme a la idea de esperar mas eso da mucha tristeza, 
+    por que saber que de un dia a otro pasa un terremoto y nuestras vidas se acaban, 
+    cada dia se pone diferente en la vida y a veces da miedo seguir 
+    un momento mas sin saber que pasara, 
+    y pienso si yo estoy atascandote y no fuiste feliz por intentar ponerme cuidado y toda la vida que habrias botado.
+    <br/>
+    Te amo mujer divina de mis ojos, y si alguien te a amado y a lagrimiado por Ti ese soy yo, 
+    hasta pensandote desde que la conozco cada dia te voy a desgastar 
+    y creo que algun dia recibire mi castigo por la nostalgia que llevo.
+    espero este tranquila, 
+    feliz como una manzana roja, y le este llendo muy bien.
+          </div>        
+          
+       <div className="ta31texto">    
+     Te queeeeeeeeeero mucho mi vida cada dia te extraño.
+       </div>
+          <div className="ta31imagen">
+            <img src={imgg31} className="ta31imagen" alt="Mi amor bonita"  ></img>
+          </div>
+          <div className="ta31texto">    
+          Te amo tambien te amo.
+          </div>
+          <div className="ta31texto">            
+          <span>18/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta30 nomostrar">        
         <div className="ta30center">
           <div className="ta30texto">   
     sara.
