@@ -38,6 +38,7 @@ import imgg28 from './imggs/img15092021.png';
 import imgg29 from './imggs/img16092021.png';
 import imgg30 from './imggs/img17092021.png';
 import imgg31 from './imggs/img18092021.png';
+import imgg32 from './imggs/img19092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -47,7 +48,37 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta31">        
+      <div className="ta32">        
+        <div className="ta32center">
+          <div className="ta32texto">   
+          Mi amor, Mi Luisa, Mi Fernanda, Mi Sara. De alguna manera siempre soy feliz con Usted, 
+          me llenas de ilusion mi vida, asi sea desde lejos.
+          <br/>Tambien se que si los cielos no quieren que este a tu lado asi sera por siempre, 
+          pero no cuestiono nada, no puedo hacerlo solo se que soy un terron mas, 
+          y si es lo que finalmente quieren para mi y Usted que asi sea, 
+          al final hago las cosas que me corresponden 
+          y si es a sentir que te necesito todos los dias 
+          a lo que he venido en este mundo que conocemos asi sera, 
+          me incomoda la vida a veces pero vuelvo e intento seguir un poquito mas, 
+          hasta que sueñe que al final vamos a estar juntos.
+          </div>        
+          
+       <div className="ta32texto">    
+     Teamocielomio
+       </div>
+          <div className="ta32imagen">
+            <img src={imgg32} className="ta32imagen" alt="Te amo mi amor"  ></img>
+          </div>
+          <div className="ta32texto">    
+     te amo teamo, Te amo
+          </div>
+          <div className="ta32texto">            
+          <span>19/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta31 nomostrar">        
         <div className="ta31center">
           <div className="ta31texto">   
           Mi amor, Me haces feliz como nunca, 
