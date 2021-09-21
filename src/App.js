@@ -39,6 +39,7 @@ import imgg29 from './imggs/img16092021.png';
 import imgg30 from './imggs/img17092021.png';
 import imgg31 from './imggs/img18092021.png';
 import imgg32 from './imggs/img19092021.png';
+import imgg33 from './imggs/img20092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -48,7 +49,39 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta32">        
+      <div className="ta33">        
+        <div className="ta33center">
+          <div className="ta33texto">   
+          Te amo, Espero haya tenido un buen dia en sus cosas, 
+mientras yo por aca hago un cuadro con muñecos.
+<br/>
+        Hoy, te extrañé todo el dia mi niña, aun asi delante de mi esta Usted, 
+        te sueño a cada momento que duermo y me quedo pensando que es mas facil 
+        soñar que vivir la realidad de la vida
+        <br/>
+         A veces pienso y Quisiera botarme al vacio de la oscuridad para desaparecer, pero me recuerdo 
+         que todavia me faltas Tu, y pienso quiza todavia me quiera Luisa, 
+         entonces recuerdo depronto talves solo la este esperando para ser feliz.
+          </div>        
+       <div className="ta33texto">    
+       </div>
+          <div className="ta33imagen">
+            <img src={imgg33} className="ta33imagen" alt="Sara te amo"  ></img>
+          </div>
+          <div className="ta33texto">    
+     Te amo mi niña hermosa, 
+     Usted es la luz de mi faro apagado, 
+     siempre voy a estar para usted, 
+     aunque se que yo algun dia ya no pueda estar en carne y hueso, 
+     aun así por ahy estare pelliscandote.
+          </div>
+          <div className="ta33texto">            
+          <span>20/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta32 nomostrar">        
         <div className="ta32center">
           <div className="ta32texto">   
           Mi amor, Mi Luisa, Mi Fernanda, Mi Sara. De alguna manera siempre soy feliz con Usted, 
