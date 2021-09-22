@@ -40,6 +40,8 @@ import imgg30 from './imggs/img17092021.png';
 import imgg31 from './imggs/img18092021.png';
 import imgg32 from './imggs/img19092021.png';
 import imgg33 from './imggs/img20092021.png';
+import imgg34 from './imggs/img21092021.png';
+
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -49,7 +51,32 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta33">        
+      <div className="ta34">        
+        <div className="ta34center">
+          <div className="ta34texto">   
+         Amoooooor, te amo, extrañandola un poco cada dia.
+<br/>
+Cada dia me doy cuenta que lo que hago es esperarla, 
+mm aun asi me paso los dias intentando ocuparme, 
+espero este muy bien usted y no sea yo un necio en su vida, 
+eres mi felicidad, mi pedazo de cielo perdido 
+que tal ves algun dia llego sin que yo supiera.
+          </div>        
+       <div className="ta34texto">    
+       </div>
+          <div className="ta34imagen">
+            <img src={imgg34} className="ta34imagen" alt="Amooor"  ></img>
+          </div>
+          <div className="ta34texto">    
+     Te amo hermosa
+          </div>
+          <div className="ta34texto">            
+          <span>21/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta33 nomostrar">        
         <div className="ta33center">
           <div className="ta33texto">   
           Te amo, Espero haya tenido un buen dia en sus cosas, 
