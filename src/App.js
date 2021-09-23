@@ -41,6 +41,7 @@ import imgg31 from './imggs/img18092021.png';
 import imgg32 from './imggs/img19092021.png';
 import imgg33 from './imggs/img20092021.png';
 import imgg34 from './imggs/img21092021.png';
+import imgg35 from './imggs/img22092021.png';
 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
@@ -50,8 +51,34 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+      <div className="ta35">        
+        <div className="ta35center">
+          <div className="ta35texto">   
+         Luisa. Hola amor mio, te extraño mi vida siempre siento que te añoro cada dia mas.
+         <br/>
+         Me gusta que Usted este bien, me alegra mucho los dias, 
+         Usted es la persona que me hace muuuuy feliz, me gusta saber de Usted, 
+         quisiera verle todos lo dias los ojitos cuando se levanta.
+         Gracias gracias por muchas cosas que eres con Yo, te amo muñeca mia.
+         <br/>
+         Espero pronto estemos juntos. Yo se que podemos ser muy felices para que vivamos los dositos.
+         <br/>Te amo mujer hermosa.
+          </div>        
+       <div className="ta35texto">    
+       </div>
+          <div className="ta35imagen">
+            <img src={imgg35} className="ta35imagen" alt="Mi Linda"  ></img>
+          </div>
+          <div className="ta35texto">    
+     Mi linda Sara te amo
+          </div>
+          <div className="ta35texto">            
+          <span>22/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
 
-      <div className="ta34">        
+      <div className="ta34 nomostrar">        
         <div className="ta34center">
           <div className="ta34texto">   
          Amoooooor, te amo, extrañandola un poco cada dia.

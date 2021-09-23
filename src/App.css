@@ -930,6 +930,44 @@
   opacity:0.8;
 }
 
+.ta35{
+  background-image: url("http://3.bp.blogspot.com/-_4VMWslo3mA/UTf0Kr_JgaI/AAAAAAAABV0/-gTySYUf7ks/s1600/Nueva%2Bimagen%2B(2).png");
+  background-repeat: repeat;
+  font-family:fantasy;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+
+ background-size: 300px 200px;
+  background-position: center center;
+}
+
+.ta35texto{
+  background-color:rgba(16, 224, 214, 0.815);
+  color:rgb(2, 29, 25);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta35center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 350px;
+ 
+}
+
+.ta35imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 350px;
+  opacity:0.8;
+}
+
+
 .nomostrar{
   display: none;
 }
