@@ -42,7 +42,7 @@ import imgg32 from './imggs/img19092021.png';
 import imgg33 from './imggs/img20092021.png';
 import imgg34 from './imggs/img21092021.png';
 import imgg35 from './imggs/img22092021.png';
-
+import imgg36 from './imggs/img23092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -51,7 +51,34 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      <div className="ta35">        
+      <div className="ta36">        
+        <div className="ta36center">
+          <div className="ta36texto">   
+        Mi muñeca querida, mmm te extraño, te pienso todo el dia a cada momento mi Sara, 
+        tanto asi que.
+        <br/>
+        A veces pienso que las estrellas que miramos son poquitas comparando con lo que la quiero a Usted,
+        tambien que la luna brilla muy poco para que sepas que te extraño. 
+        y comparando mi amor por ti me dirian lunatico, pero yo se que estoy Luisatico, 
+        jeje te amo mi vida preciosa.
+
+        <br/>
+          </div>        
+       <div className="ta36texto">    
+       </div>
+          <div className="ta36imagen">
+            <img src={imgg36} className="ta36imagen" alt="Mi Amor querida"  ></img>
+          </div>
+          <div className="ta36texto">    
+    Besitos abrazos y pechuchos. 
+          </div>
+          <div className="ta36texto">            
+          <span>23/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta35 nomostrar">        
         <div className="ta35center">
           <div className="ta35texto">   
          Luisa. Hola amor mio, te extraño mi vida siempre siento que te añoro cada dia mas.
