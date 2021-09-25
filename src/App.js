@@ -43,6 +43,7 @@ import imgg33 from './imggs/img20092021.png';
 import imgg34 from './imggs/img21092021.png';
 import imgg35 from './imggs/img22092021.png';
 import imgg36 from './imggs/img23092021.png';
+import imgg37 from './imggs/img24092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -51,7 +52,37 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      <div className="ta36">        
+      <div className="ta37">        
+        <div className="ta37center">
+          <div className="ta37texto">   
+       Hola mi amor, espero este muy bien donde quiera que este.
+       <br/>
+       Emm, A veces creo que el destino y la vida no estan muy a favor de lo que tal ves 
+       siempre he pensado y he querido con Usted, aun asi por aca estoy llevando hasta 
+       donde pueda y me de la existencia.
+       Mm talves todo lo que hago y soy nunca valdrá para nada y en este mundo siempre este equivocado
+       y la unica que me hará compañia sera la luna blanca, el frio viento y el caluroso sol ya que esos no se acaban, 
+       asi como el dia a dia muere y el mundo envejece.
+       <br/>
+       Pero de alguna manera, por aca voy a estar, todavia la espero, 
+       ya la vida le dira a usted que es lo que hará.
+       Te amo. 
+          </div>        
+       <div className="ta37texto">    
+       </div>
+          <div className="ta37imagen">
+            <img src={imgg37} className="ta37imagen" alt="Te amo"  ></img>
+          </div>
+          <div className="ta37texto">    
+            Te amo
+          </div>
+          <div className="ta37texto">            
+          <span>24/09/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta36 nomostrar">        
         <div className="ta36center">
           <div className="ta36texto">   
         Mi muñeca querida, mmm te extraño, te pienso todo el dia a cada momento mi Sara, 
