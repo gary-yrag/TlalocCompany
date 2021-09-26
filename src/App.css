@@ -1039,6 +1039,41 @@
   opacity:0.8;
 }
 
+.ta38{
+  background-image: url("https://static.wixstatic.com/media/e1ed0c_a1b2de7bd51547089a8452b886cdbf24~mv2.gif");
+  background-repeat: repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+
+ background-size: 500px 500px;
+  background-position: center center;
+}
+
+.ta38texto{
+  background-color:rgba(247, 226, 108, 0.815);
+  color:rgb(11, 36, 82);
+  font-weight: bolder;
+  font-family:serif;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta38center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 350px; 
+}
+
+.ta38imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 350px;
+  opacity:0.8;
+}
 
 .nomostrar{
   display: none;

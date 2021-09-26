@@ -44,6 +44,7 @@ import imgg34 from './imggs/img21092021.png';
 import imgg35 from './imggs/img22092021.png';
 import imgg36 from './imggs/img23092021.png';
 import imgg37 from './imggs/img24092021.png';
+import imgg38 from './imggs/img25092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -52,6 +53,35 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+
+      <div className="ta38">        
+        <div className="ta38center">
+          <div className="ta38texto">   
+      Hola mi amor, Deseo este muy bien en su vida y en sus cosas.
+      <br/>
+      A veces solamente quisiera soñar y ver el cielo o algo mas para que la vida sea mas facil, 
+      o para que al menos el mundo se voltee al revez, 
+      y estar ahy para ver que pasa, 
+      pero aun asi creo que Usted seguira en su mismo lugar y con su mismo alrededor.
+      <br/> 
+      A veces hago un poco de agonia y pienso creo es mejor que ya no estes en mi vida eso seria talves lo mejor para Usted, 
+      por que se que si estas voy a seguir molestandote con mis tonterias y creo que eso aburre a las personas, no se por que la vida es asi.
+      <br/>
+          </div>        
+       <div className="ta38texto">    
+       </div>
+          <div className="ta38imagen">
+            <img src={imgg38} className="ta38imagen" alt="Sara"  ></img>
+          </div>
+          <div className="ta38texto">    
+            Te extraño amor, desde hace tiempos talves desde antes de nacer como hoy.
+          </div>
+          <div className="ta38texto">            
+          <span>25/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
       <div className="ta37">        
         <div className="ta37center">
           <div className="ta37texto">   
