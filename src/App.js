@@ -45,6 +45,7 @@ import imgg35 from './imggs/img22092021.png';
 import imgg36 from './imggs/img23092021.png';
 import imgg37 from './imggs/img24092021.png';
 import imgg38 from './imggs/img25092021.png';
+import imgg39 from './imggs/img26092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -54,7 +55,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta38">        
+      <div className="ta39">        
+        <div className="ta39center">
+          <div className="ta39texto">   
+            Te amo, Luisa.
+            <br/>
+            Si el dia fuese la oscuridad y la noche tuviera mucha luz, talves el mundo fuese diferente para Usted y para mi, 
+            y en estos momentos no estuviera leyendo estas frases que con mucho empeño he pensado para Usted, 
+            tal ves la distraiga un rato y piense cosas bonitas, y mire un esplendido amanecer que talves esta construyendo cada dia.
+            <br/>
+            Es posible que en su nuevo mañana ya no este yo, por las circunstancias de la vida, 
+            aun asi te quiero siempre voy a estar por ahy amandote cada momento, 
+            asi usted se olvide de mi por ratos o por dias o por años o tal ves para la eternidad.
+          </div>        
+       <div className="ta39texto">    
+       </div>
+          <div className="ta39imagen">
+            <img src={imgg39} className="ta39imagen" alt="te amo"  ></img>
+          </div>
+          <div className="ta39texto">    
+           TE amo mi amor.
+          </div>
+          <div className="ta39texto">            
+          <span>26/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta38 nomostrar">        
         <div className="ta38center">
           <div className="ta38texto">   
       Hola mi amor, Deseo este muy bien en su vida y en sus cosas.
@@ -82,7 +110,7 @@ function App() {
         </div>       
       </div> 
 
-      <div className="ta37">        
+      <div className="ta37 nomostrar">        
         <div className="ta37center">
           <div className="ta37texto">   
        Hola mi amor, espero este muy bien donde quiera que este.
