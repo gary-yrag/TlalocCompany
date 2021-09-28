@@ -46,6 +46,7 @@ import imgg36 from './imggs/img23092021.png';
 import imgg37 from './imggs/img24092021.png';
 import imgg38 from './imggs/img25092021.png';
 import imgg39 from './imggs/img26092021.png';
+import imgg40 from './imggs/img27092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -55,7 +56,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta39">        
+      <div className="ta40">        
+        <div className="ta40center">
+          <div className="ta40texto">   
+            Hola mi vida, espero se acuerde de Mi, Yo te amo, hoy andaba pensando en hacer un poema.
+            <br/>
+            Creeria que los dias con Usted serian bonitos, muy comodos, me gustaria ver sus cachetes todos los dias, 
+            y depronto si Usted fuera un pastel no te morderia,  
+            solamente la guardaria en el bolsillo para pelliscarla poquito a poquito para que no se desgaste y dure bastante 
+            o si depronto fuera una taza de cafe, pienso que ese cafe tuviera mucha cafeina para delirar y no saber si existir.
+            Pero si fuera una traza de aguapanela esa mi la bebo.
+<br/>
+            Te amo
+            <br/>
+            Hoy le hice un peluche peludo.
+          </div>        
+       <div className="ta40texto">    
+       </div>
+          <div className="ta40imagen">
+            <img src={imgg40} className="ta40imagen" alt="Te amo Sara"  ></img>
+          </div>
+          <div className="ta40texto">    
+           Bonita te amo, te extraño mi vida.
+          </div>
+          <div className="ta40texto">            
+          <span>27/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta39 nomostrar">        
         <div className="ta39center">
           <div className="ta39texto">   
             Te amo, Luisa.
