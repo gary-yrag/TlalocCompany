@@ -47,6 +47,7 @@ import imgg37 from './imggs/img24092021.png';
 import imgg38 from './imggs/img25092021.png';
 import imgg39 from './imggs/img26092021.png';
 import imgg40 from './imggs/img27092021.png';
+import imgg41 from './imggs/img28092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -56,7 +57,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta40">        
+      <div className="ta41">        
+        <div className="ta41center">
+          <div className="ta41texto">   
+            Mi bella durmiente, te amo, 
+            a veces pienso que le hago poemas pero despues me doy cuenta que solo salen coplas. Jeje te amo.
+            <br/>
+            Pienso eres feliz con la vida, a veces no dice nada pero me imagino talves ya tenga Usted su destino puesto, 
+            me gusta saber de ti todo el tiempo, pero la circunstancias de la vida halan para donde quieren, 
+            aun asi anhelo estar con Usted y vivir felices un poco mas de 100 años, 
+            aunque eres la fruta mas deliciosa y provocativa de la que no puedo probar por que los arboles la botan lejos de mis bacterias.
+         <br/>
+         Ahy anda Usted cantando,.
+          </div>        
+       <div className="ta41texto">    
+       </div>
+          <div className="ta41imagen">
+            <img src={imgg41} className="ta41imagen" alt="Mi amor"  ></img>
+          </div>
+          <div className="ta41texto">    
+          Te amo Luisa, por aca la extraño señorita.
+          </div>
+          <div className="ta41texto">            
+          <span>28/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta40 nomostrar">        
         <div className="ta40center">
           <div className="ta40texto">   
             Hola mi vida, espero se acuerde de Mi, Yo te amo, hoy andaba pensando en hacer un poema.
