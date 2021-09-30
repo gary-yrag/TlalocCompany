@@ -48,6 +48,7 @@ import imgg38 from './imggs/img25092021.png';
 import imgg39 from './imggs/img26092021.png';
 import imgg40 from './imggs/img27092021.png';
 import imgg41 from './imggs/img28092021.png';
+import imgg42 from './imggs/img29092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -57,7 +58,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta41">        
+      <div className="ta42">        
+        <div className="ta42center">
+          <div className="ta42texto">   
+           Te amo amor.
+           <br/>
+           Asi ya no estes con migo siempre voy a estar para Ti, asi ya me mates por ahy reviviré, 
+           asi en tu vida me llegues a ignorar voy a estar, asi ya este tarde te voy a extrañar, 
+           asi ya estes cansada de mi yo te hare descansar, 
+           asi ya tengas otros intereses te voy a soñar para mi, 
+           aun asi me digas que ya no estaras para mi, 
+           solamente me morire pero en otro lugar te volvere a ver y 
+           talves tambien la este esperando.
+           <br/>
+           Hasta talves solo estemos en un sueño y el que te esta esperando no sea yo si no el que sueña.
+          </div>        
+       <div className="ta42texto">    
+       </div>
+          <div className="ta42imagen">
+            <img src={imgg42} className="ta42imagen" alt="Te amo amor."  ></img>
+          </div>
+          <div className="ta42texto">    
+        Te amo Sara
+          </div>
+          <div className="ta42texto">            
+          <span>29/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta41 nomostrar">        
         <div className="ta41center">
           <div className="ta41texto">   
             Mi bella durmiente, te amo, 
