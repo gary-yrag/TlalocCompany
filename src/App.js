@@ -49,6 +49,7 @@ import imgg39 from './imggs/img26092021.png';
 import imgg40 from './imggs/img27092021.png';
 import imgg41 from './imggs/img28092021.png';
 import imgg42 from './imggs/img29092021.png';
+import imgg43 from './imggs/img30092021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -58,7 +59,42 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta42">        
+      <div className="ta43">        
+        <div className="ta43center">
+          <div className="ta43texto">   
+          Sara.
+          <br/>
+           Mi querida, te extraño mucho, llevo años sin saber a que hueles, 
+           al parecer posiblemente sean muchos años mas los que falten, 
+           o talves el resto de la vida ya no te volvere a ver.
+           <br/>
+           Espero que todos los pocos momentos que estuvimos compartiendo  
+           juntos hayan sido los mejores vividos, 
+           por que de alguna manera me entregue a ti llenamente sin saber que pasaria despues, 
+           tal ves siempre te entregue lo mejor de mi.
+           <br/>
+           Me duele la garganta saber, que posiblemente el mundo no este mas para los dos, 
+           aun asi todavia hago lo mejor de mi en la distancia, pensando que tal ves un mañana sera mejor que un dia.
+           <br/>
+           Aun asi, te amo mucho, te extraño hermosa.
+           <br/>
+           Besos en los dientes.
+          </div>        
+       <div className="ta43texto">    
+       </div>
+          <div className="ta43imagen">
+            <img src={imgg43} className="ta43imagen" alt="Mi amor"  ></img>
+          </div>
+          <div className="ta43texto">    
+       BESOS.
+          </div>
+          <div className="ta43texto">            
+          <span>30/09/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta42 nomostrar">        
         <div className="ta42center">
           <div className="ta42texto">   
            Te amo amor.

@@ -1219,6 +1219,39 @@
   opacity:0.8;
 }
 
+.ta43{
+  background-image: url("https://i.pinimg.com/originals/df/a7/fb/dfa7fb4fa552fc1869932ac86a4e84fb.gif");
+  background-repeat: no-repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+}
+
+.ta43texto{
+  background-color:rgba(224, 108, 240, 0.884);
+  color:rgb(107, 12, 102);
+  font-weight: bolder;
+  font-family:serif;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta43center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 350px; 
+}
+
+.ta43imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 350px;
+  opacity:0.8;
+}
 
 .nomostrar{
   display: none;
