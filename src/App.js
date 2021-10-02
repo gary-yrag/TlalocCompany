@@ -50,6 +50,7 @@ import imgg40 from './imggs/img27092021.png';
 import imgg41 from './imggs/img28092021.png';
 import imgg42 from './imggs/img29092021.png';
 import imgg43 from './imggs/img30092021.png';
+import imgg44 from './imggs/img01102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -59,7 +60,36 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta43">        
+      <div className="ta44">        
+        <div className="ta44center">
+          <div className="ta44texto">   
+          Amor, me pregunto si me extraña o me quiere, tal ves si tal ves no, solamente lo sabe Usted.
+          <br/>
+          Yo se que Yo soy la persona que te extraña, y te quiero para mi.
+          <br/>
+          Tambien, asi como siempre Eres el pedazo de viento que me falta para estar fresco en los dias calurosos.
+          <br/>
+          Oo Asi como tambien se que Eres mi sol cuando hace mucho frio, 
+          por que brillas en mi vida igual que los rios brillan con el sol.
+          <br/>
+          Jumm mi Sara.
+          </div>        
+       <div className="ta44texto">    
+       </div>
+          <div className="ta44imagen">
+            <img src={imgg44} className="ta44imagen" alt="Mi sara"  ></img>
+          </div>
+          <div className="ta44texto">    
+      Te amo muchacha bonita.
+          </div>
+          <div className="ta44texto">            
+          <span>01/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+
+      <div className="ta43 nomostrar">        
         <div className="ta43center">
           <div className="ta43texto">   
           Sara.
