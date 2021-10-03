@@ -51,6 +51,7 @@ import imgg41 from './imggs/img28092021.png';
 import imgg42 from './imggs/img29092021.png';
 import imgg43 from './imggs/img30092021.png';
 import imgg44 from './imggs/img01102021.png';
+import imgg45 from './imggs/img02102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -60,7 +61,32 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta44">        
+      <div className="ta45">        
+        <div className="ta45center">
+          <div className="ta45texto">   
+         Hola mi amor.
+         <br/>
+         Hoy  queria decirle, que si fueras flor tal vez Usted seria la mas bonita de todas, 
+         y si en esa flor fueses nectar, serias la miel mas jugosa, siendo tan sabrosa que alcanzaria 
+         para muchas bebidas, y si entre esas flores de Usted estuvieran en mi cercania brillarian con el agua que les echaria.
+         <br/>
+         O al menos eso pienso de Ti.
+          </div>        
+       <div className="ta45texto">    
+       </div>
+          <div className="ta45imagen">
+            <img src={imgg45} className="ta45imagen" alt="Te amo"  ></img>
+          </div>
+          <div className="ta45texto">    
+      Mi muñeca, Te amo Mi Saraaaa
+          </div>
+          <div className="ta45texto">            
+          <span>02/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta44 nomostrar">        
         <div className="ta44center">
           <div className="ta44texto">   
           Amor, me pregunto si me extraña o me quiere, tal ves si tal ves no, solamente lo sabe Usted.
@@ -87,7 +113,6 @@ function App() {
           </div>            
         </div>       
       </div> 
-
 
       <div className="ta43 nomostrar">        
         <div className="ta43center">
