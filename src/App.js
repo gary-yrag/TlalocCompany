@@ -52,6 +52,7 @@ import imgg42 from './imggs/img29092021.png';
 import imgg43 from './imggs/img30092021.png';
 import imgg44 from './imggs/img01102021.png';
 import imgg45 from './imggs/img02102021.png';
+import imgg46 from './imggs/img03102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -61,7 +62,33 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta45">        
+      <div className="ta46">        
+        <div className="ta46center">
+          <div className="ta46texto">   
+         Sara.
+         <br/>
+         Tal ves la felicidad de Usted esta en una puerta que aun no mira, 
+         O solamente siempre esta exisitiendo en el lugar donde siempre ha querido estar, 
+         aun asi creo para mi el tiempo de Usted y el mio es muy valioso, 
+         los pocos ratos vividos para mi son un gran alago, siempre he esperado por Ti, a ver si algun dia se dan nuestros mundos, 
+         o quiza solamente estoy por aca para intentar distraerla un rato.
+         <br/>Te amo muñeca hermosa.
+          </div>        
+       <div className="ta46texto">    
+       </div>
+          <div className="ta46imagen">
+            <img src={imgg46} className="ta46imagen" alt="Mi amor"  ></img>
+          </div>
+          <div className="ta46texto">    
+   TE amo mi Sara.
+          </div>
+          <div className="ta46texto">            
+          <span>03/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta45 nomostrar">        
         <div className="ta45center">
           <div className="ta45texto">   
          Hola mi amor.
