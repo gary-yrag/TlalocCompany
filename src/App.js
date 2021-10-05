@@ -53,6 +53,7 @@ import imgg43 from './imggs/img30092021.png';
 import imgg44 from './imggs/img01102021.png';
 import imgg45 from './imggs/img02102021.png';
 import imgg46 from './imggs/img03102021.png';
+import imgg47 from './imggs/img04102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -61,8 +62,32 @@ function App() {
   return (
     <Provider store={store}>
       <div>
+      
+      <div className="ta47">        
+        <div className="ta47center">
+          <div className="ta47texto">   
+        Mujer mia, te amo, te extraño, en mucho tiempo.
+          </div>        
+       <div className="ta47texto">    
+        Usted es hermosa como una lulo, debe ser que su nombre comenza con L, tambien eres a veces dulce como una uva,  
+        y como no se frutas con la I jeje, a veces eres sutil como un limon o tambien agridulce como naranja, 
+        pero se que eres rica y suave como una sandia sin pepas, pero talves con un poco de Amor se vuelva amorossa como una oveja.
+        <br/>
+        Te amo
+       </div>
+          <div className="ta47imagen">
+            <img src={imgg47} className="ta47imagen" alt="Mi hermosa."  ></img>
+          </div>
+          <div className="ta47texto">    
+   Linda.
+          </div>
+          <div className="ta47texto">            
+          <span>04/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
 
-      <div className="ta46">        
+      <div className="ta46 nomostrar">        
         <div className="ta46center">
           <div className="ta46texto">   
          Sara.
