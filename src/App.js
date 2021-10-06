@@ -54,6 +54,7 @@ import imgg44 from './imggs/img01102021.png';
 import imgg45 from './imggs/img02102021.png';
 import imgg46 from './imggs/img03102021.png';
 import imgg47 from './imggs/img04102021.png';
+import imgg48 from './imggs/img05102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -63,7 +64,34 @@ function App() {
     <Provider store={store}>
       <div>
       
-      <div className="ta47">        
+      <div className="ta48">        
+        <div className="ta48center">
+          <div className="ta48texto">   
+      Mi amor querida, jummmm me deja por ratos, se olvida de mi. Jumm mi Sara.
+      <br/>
+          </div>        
+       <div className="ta48texto">    
+        A veces solo creo, que tal ves molesto mucho mmm y ya no deberia estar cansandola, 
+        jimm aun asi eres la reina que quiero para mi vida.
+        <br/>
+        De algun modo siempre brillas en mi vida. La quiero mucho asi 
+        ya Usted este en sus cosas y tal vez crea que ya no hay un mañana para mi.
+        <br/>
+        Te amo
+       </div>
+          <div className="ta48imagen">
+            <img src={imgg48} className="ta48imagen" alt="Sara"  ></img>
+          </div>
+          <div className="ta48texto">    
+  TE amo mi amor.
+          </div>
+          <div className="ta48texto">            
+          <span>05/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta47 nomostrar">        
         <div className="ta47center">
           <div className="ta47texto">   
         Mujer mia, te amo, te extraño, en mucho tiempo.
