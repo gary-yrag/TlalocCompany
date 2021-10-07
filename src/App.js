@@ -55,6 +55,7 @@ import imgg45 from './imggs/img02102021.png';
 import imgg46 from './imggs/img03102021.png';
 import imgg47 from './imggs/img04102021.png';
 import imgg48 from './imggs/img05102021.png';
+import imgg49 from './imggs/img06102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -64,7 +65,31 @@ function App() {
     <Provider store={store}>
       <div>
       
-      <div className="ta48">        
+      <div className="ta49">        
+        <div className="ta49center">
+          <div className="ta49texto">   
+      Cielo preciosa, te amo niña linda, de mi vida.
+          </div>        
+       <div className="ta49texto">    
+      Sara de mi vida, Usted me hace delirar a veces, y mirar el mundo mas bonito, siempre es asi, 
+      solamente Usted ha estado en mi vida y quiza sea mi futuro para el resto de la vida nomas, 
+      espero algun dia seamos felices y podramos estar juntos para compartir nuestras vidas hasta viejitos 
+      y poder compartir gustos y disgustos. <br/>
+      Solo esa es mi ilusion, con Usted y creo que me dan ganas de vivir muchas existencias con Usted  
+       </div>
+          <div className="ta49imagen">
+            <img src={imgg49} className="ta49imagen" alt="Te amo hermosa"  ></img>
+          </div>
+          <div className="ta49texto">    
+ Besos mi amor.
+          </div>
+          <div className="ta49texto">            
+          <span>06/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta48 nomostrar">        
         <div className="ta48center">
           <div className="ta48texto">   
       Mi amor querida, jummmm me deja por ratos, se olvida de mi. Jumm mi Sara.
