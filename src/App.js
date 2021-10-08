@@ -56,6 +56,7 @@ import imgg46 from './imggs/img03102021.png';
 import imgg47 from './imggs/img04102021.png';
 import imgg48 from './imggs/img05102021.png';
 import imgg49 from './imggs/img06102021.png';
+import imgg50 from './imggs/img07102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -64,8 +65,34 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-      
-      <div className="ta49">        
+              
+      <div className="ta50">        
+        <div className="ta50center">
+          <div className="ta50texto">   
+     Hermosa.
+          </div>        
+       <div className="ta50texto">    
+      Mi querida, te amo  desde que la conozco, eres mi felicidad, asi como tambien a veces eres mi tristesa, 
+      pero prefiero que siempre sea mi amor, asi como quiero que sea mi compañia por el resto de los dias, 
+      asi como quiero que sea mi vida a diario, asi como quiero que sea mi despertador, asi como quiero que sea mi regaño del dia, 
+      asi como tambien quiesiera que sea mi beso del dia, asi como quiero que sea mi sueño de toda la vida, 
+      asi como quiero que sea la felicidad de los dos, asi como quiero que sea mi vivir en la espectativa, 
+      y asi como quiero que Usted sea la persona que me despida del mundo.
+      TE amo amor.
+       </div>
+          <div className="ta50imagen">
+            <img src={imgg50} className="ta50imagen" alt="Mi amor"  ></img>
+          </div>
+          <div className="ta50texto">    
+Te amo Sara
+          </div>
+          <div className="ta50texto">            
+          <span>07/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta49 nomostrar">        
         <div className="ta49center">
           <div className="ta49texto">   
       Cielo preciosa, te amo niña linda, de mi vida.
