@@ -57,6 +57,7 @@ import imgg47 from './imggs/img04102021.png';
 import imgg48 from './imggs/img05102021.png';
 import imgg49 from './imggs/img06102021.png';
 import imgg50 from './imggs/img07102021.png';
+import imgg51 from './imggs/img08102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -65,8 +66,35 @@ function App() {
   return (
     <Provider store={store}>
       <div>
-              
-      <div className="ta50">        
+
+      <div className="ta51">        
+        <div className="ta51center">
+          <div className="ta51texto">   
+     Mi preciosa
+          </div>        
+       <div className="ta51texto">    
+     Cuando la lluvia cae es por que mas arriba hace mucho frio entonces hay que acalorarse; 
+     igual que si hay demasiada luz en la noche es dificil dormir, entonces hay que soñar; 
+     tambien Si el dia es ruidoso los murmuros no se escuchan, entonces hay que silenciar; 
+     igual que si los seres estan sin compañia; entonces hay que tener espiritu; 
+     igual si no besas a alguien te olvidas de besar; 
+     lo unico que no cambia es el sentir y querer amar.
+
+     Te amo Sara amor mio.
+       </div>
+          <div className="ta51imagen">
+            <img src={imgg51} className="ta51imagen" alt="Preciosa"  ></img>
+          </div>
+          <div className="ta51texto">    
+Mi Preciosa
+          </div>
+          <div className="ta51texto">            
+          <span>08/10/2021</span>
+          </div>            
+        </div>       
+      </div>         
+      
+      <div className="ta50 nomostrar">        
         <div className="ta50center">
           <div className="ta50texto">   
      Hermosa.
