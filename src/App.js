@@ -67,7 +67,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta51">        
+      <div className="ta52">        
+        <div className="ta52center">
+          <div className="ta52texto">   
+     Hola mi vida.
+          </div>        
+       <div className="ta52texto">    
+     Hoy solo pensare que debes descanzar para que Tenga energias de continuar la vida, 
+     aun falta mucho para donde debe ir, el viento todavia la llevara a muchos lugares donde talves 
+     quieras estar, y la noche te acompañara con las estrellas sonrrientes y brillantes 
+     junto con el gran sol que le daran luz para que puedas tomar las desiciones que te haran feliz 
+     y al final la llevaran a sus propositos por los cuales esta. 
+     <br/>
+     Y por ahy por ahy en los montes depronto este yo, si sigo vivo queriendote y si ya no estoy por ahy estare contemplandola mi amor. 
+     <br/>
+     espero este muy bien, en sus cosas. TE amo Sara
+     <br/>
+       </div>
+        
+          <div className="ta52texto">    
+Te amo mi amor.
+          </div>
+          <div className="ta52texto">            
+          <span>09/10/2021</span>
+          </div>            
+        </div>       
+      </div>      
+
+      <div className="ta51 nomostrar">        
         <div className="ta51center">
           <div className="ta51texto">   
      Mi preciosa
