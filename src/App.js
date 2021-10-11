@@ -67,7 +67,38 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta52">        
+      <div className="ta53">        
+        <div className="ta53center">
+          <div className="ta53texto">   
+     Cielo mio
+          </div>        
+       <div className="ta53texto">    
+   La ilusion de la vida, es el querer estar vivos para continuar un dia mas y asi un dia mas 
+   siendo a veces un dia como una felicidad o a veces como un terror, 
+   pero en algun momento piensas que todo puede cambiar y es cuando se acuerda del que debe hacer 
+   para estar donde se desee, 
+   y en todo esto a cada instante se siente amor ya que es el unico combustible de la vida 
+   que te hace sentir mejor, y mas si sientes amor por alguien llamado Luisa o Gary, 
+   y creo que es algo que no se puede volver a repetir, 
+   por que las personas nunca se igualaran a otras en su manera.
+   Siendo todo esto el suplicio cuando tu no estas con los seres que en realidad amas y 
+  el destino a cada momento se forja con un acto que talves te acerca o te aleja de lo que quieres, 
+   pues siempre hay algo que hacer para poder encontrar el final, 
+   y mas cuando el final quieres que sea bonito.
+TE amo. Sara,.
+
+       </div>
+        
+          <div className="ta53texto">    
+Mi Sara
+          </div>
+          <div className="ta53texto">            
+          <span>10/10/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta52 nomostrar">        
         <div className="ta52center">
           <div className="ta52texto">   
      Hola mi vida.

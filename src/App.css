@@ -1564,6 +1564,42 @@
   opacity:0.8;
 }
 
+
+.ta53{
+  background-image: url("http://1.bp.blogspot.com/-iho0Rnwvg7U/ULGkj7rssZI/AAAAAAAAmXI/odS0gI1WDSM/s1600/1+gif+animado+corazones+(3).gif");
+  background-repeat: repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+  background-size: 150px 130px;
+}
+
+.ta53texto{
+  background-color:rgba(221, 140, 217, 0.884);
+  color:rgb(30, 37, 46);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta53center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 250px; 
+}
+
+.ta53imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 250px;
+  opacity:0.8;
+}
+
 .nomostrar{
   display: none;
 }
