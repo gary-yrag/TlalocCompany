@@ -67,7 +67,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta53">        
+      <div className="ta54">        
+        <div className="ta54center">
+          <div className="ta54texto">   
+     Sara, Mi amor querida.
+          </div>        
+       <div className="ta54texto">    
+Si alguna ves le dije te amo tal ves es lo mejor que hago, 
+por que siempre siento profundamente que necesito de Usted, 
+me gusta vivir sabiendo que tal ves algun dia estara para mi, 
+y que la vida nos tendra juntos para compartir algun matojo de tiempo.  
+Y tal ves sea su vida y la mia mas feliz, y podramos hacer nuestras cosas, tener una familia, 
+hacer nuestra cena, cortarle las uñas, hacerle moños, bañarla. 
+<br/>
+Siempre sera la niña de mis ojos, asi ya no te vea o este ciego, 
+pienso que es lo que he sentido y siento por Usted es dificil de cambiar. 
+       </div>
+        
+          <div className="ta54texto">    
+Te amo mi amor.
+          </div>
+          <div className="ta54texto">            
+          <span>11/10/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+
+      <div className="ta53 nomostrar">        
         <div className="ta53center">
           <div className="ta53texto">   
      Cielo mio
