@@ -67,7 +67,39 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta54">        
+      <div className="ta55">        
+        <div className="ta55center">
+          <div className="ta55texto">   
+          Mi amor
+          <br/>
+Mi querida Sara.
+<br/>
+<br/>
+          </div>        
+       <div className="ta55texto">    
+Sabes que eres bonita como una mariposa, a veces eres alegre como una abeja con alas, 
+pocas veces tierna como una oveja con pies, de ves en cuando docil como una coneja, 
+siempre dormilona como blanca nieves, pocas y varias veces gruñona como la senisienta, 
+y cuando hablas una melodia de regaño sale o a veces un cariño sabe decir.
+<br/>
+Aun asi no se como es ahora, la vida a cambiado tanto que tal ves eres mas feliz que un aji dulce.
+O quiza en su corazon por ahy se acuerde de Mi.
+       </div>
+        
+          <div className="ta55texto">   
+          <br/> 
+          Besos y muchas flores para su jardin..
+          <br/>
+Te amo
+          </div>
+          <div className="ta55texto">         
+          <br/>   
+          <span>12/10/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta54 nomostrar">        
         <div className="ta54center">
           <div className="ta54texto">   
      Sara, Mi amor querida.
