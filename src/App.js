@@ -67,7 +67,59 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta55">        
+      <div className="ta56">        
+        <div className="ta56center">
+          <div className="ta56texto">
+            Besos
+            <br/>   
+            Mi niña Sara, Te amo mi amor.
+          </div>        
+          <div className="ta56texto">    
+          Ha pasado un dia muy largo, pienso y creo que a veces estar solo te hace pensar en la necesidad de tener 
+          compañia, pero la compañia no es grata por que una ves vuelves a estar solo la necesidad se va volver, 
+          aun asi la vida que pasamos debe tener un rumbo, pienso que el rumbo pronto llegara para ti o pa mi, 
+          pues el mundo nunca se detiene y nunca debes detenerte ante los sucesos de la vida, 
+          nunca debes dejar algo 
+          que tienes que hacer de un lado, simplemente por algo que intenta cambiarlo.
+          <br/>
+          Tal ves siento un poco que soy el algo que quiza no debes oir, puede ser que solo debo suceder y ya, 
+          de algun modo lo que he sido yo, disfrute cuando estuviste a mi lado y si depronto es el momento que 
+          los rumbos de nuestras vidas cambien para su mejor compañia, me esmero en alejarte y acercarte hacia mi. 
+          <br/>
+          No se si me entiende, 
+          creo que no me entiende y eso es normal no me debes entender, 
+          pues hace mil años no me entiendes por eso estoy por aca y Usted por alla, pero se que te amo, 
+          y tal ves ya se que te amo mas, 
+          se que eres mi necesidad de vida,
+          tambien se que eres la persona que me hace soñar,
+          tambien se que eres la persona que incrementa mi vida, 
+          se que eres la persona que quiero para mi independientemente de si eres o no asi.
+          <br/>
+          De cualquier modo quiero que las desiciones que toma en la 
+          vida piense Usted siempre sean las mejores las cuales estaran 
+          en su caminio ya que solamente soy una persona que dificilmente no estara.
+          <br/>
+          Este Usted o no este con migo siempre la voy a llevar en mi corazon, hasta que este vivo, 
+          y tenga energia para extrañar a las personas. 
+          <br/>
+          O tal ves cada dia me acostumbre a perderte y saber que solo soy la consecuencia de un momento, 
+          y que mi presente en ti solo es para saber que estaras asi no lo estes, o tal ves siempre has estado y sigas estando.
+<br/>
+TE amo Sara.
+          </div>
+        
+          <div className="ta56texto">   
+         Mi niña linda.
+          
+          </div>
+          <div className="ta56texto">         
+          <br/>   
+          <span>13/10/2021</span>
+          </div>            
+        </div>       
+      </div>  
+
+      <div className="ta55 nomostrar">        
         <div className="ta55center">
           <div className="ta55texto">   
           Mi amor

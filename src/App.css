@@ -1669,6 +1669,41 @@
   opacity:0.8;
 }
 
+.ta56{
+  background-image: url("https://i.pinimg.com/originals/b6/3f/26/b63f26753ce85b17033d74120e6f4e31.png");
+  background-repeat: no-repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+  background-size: 500px 500px;
+}
+
+.ta56texto{
+  background-color:rgba(221, 140, 217, 0.884);
+  color:rgb(30, 37, 46);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta56center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 600px; 
+}
+
+.ta56imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 600px;
+  opacity:0.8;
+}
+
 .nomostrar{
   display: none;
 }
