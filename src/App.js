@@ -58,6 +58,7 @@ import imgg48 from './imggs/img05102021.png';
 import imgg49 from './imggs/img06102021.png';
 import imgg50 from './imggs/img07102021.png';
 import imgg51 from './imggs/img08102021.png';
+import imgg57 from './imggs/img14102021.png';
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
@@ -67,7 +68,27 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta56">        
+      <div className="ta57 ">        
+        <div className="ta57center">
+          <div className="ta57texto">   
+    Mi amor Querida
+          </div>        
+       <div className="ta57texto">    
+     
+       </div>
+          <div className="ta57imagen">
+            <img src={imgg57} className="ta57imagen" alt="Te amo"  ></img>
+          </div>
+          <div className="ta57texto">    
+Te amo Sara.
+          </div>
+          <div className="ta57texto">            
+          <span>14/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta56 nomostrar">        
         <div className="ta56center">
           <div className="ta56texto">
             Besos
