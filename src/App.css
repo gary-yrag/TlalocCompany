@@ -1739,6 +1739,41 @@
   opacity:0.8;
 }
 
+.ta58{
+  background-image: url("https://img2.freepng.es/20191021/hy/transparent-valentines-day-5dadfe7a48e016.4006688615716839622985.jpg");
+  background-repeat: no-repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+  background-size: 500px 500px;
+}
+
+.ta58texto{
+  background-color:rgba(221, 140, 217, 0.884);
+  color:rgb(30, 37, 46);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta58center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 600px; 
+}
+
+.ta58imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 350px;
+  width: 600px;
+  opacity:0.8;
+}
+
 .nomostrar{
   display: none;
 }
