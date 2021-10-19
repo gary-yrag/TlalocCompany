@@ -62,6 +62,7 @@ import imgg57 from './imggs/img14102021.png';
 import imgg58 from './imggs/img15102021.png';
 import imgg59 from './imggs/img16102021.png';
 import imgg60 from './imggs/img17102021.png';
+import imgg61 from './imggs/img18102021.png';
 
 
 //import {BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
@@ -72,7 +73,27 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta60">        
+      <div className="ta61">        
+        <div className="ta61center">
+          <div className="ta61texto">   
+ Hermosa
+          </div>        
+       <div className="ta61texto">    
+     
+       </div>
+          <div className="ta61imagen">
+            <img src={imgg61} className="ta61imagen" alt="TE amo"  ></img>
+          </div>
+          <div className="ta61texto">    
+Mi amor
+          </div>
+          <div className="ta61texto">            
+          <span>18/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta60 nomostrar">        
         <div className="ta60center">
           <div className="ta60texto">   
  Besos Mi Sara
