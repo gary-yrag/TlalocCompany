@@ -73,7 +73,30 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta61">        
+      <div className="ta62">        
+        <div className="ta62center">
+          <div className="ta62texto">   
+ Hola mi amor Sara.
+          </div>        
+       <div className="ta62texto">    
+     Te extraño corazon mio, te amo solo a ti, quisiera la vida fuera mas bonita para los dos, 
+     y poderte concentir y besar todos los dias, para que estes junto a mi toda la vida en cada segundo  
+     y que los tiempos siempre vuelvan pára un siempre vivir para Ti y para Mi.
+     Y si cada segundo puedo hacer algo, es quererla mas y extrañarla de algun modo.
+     <br/>
+     Y si talves pienso, siempre se que eres mi riqueza por que tiene todos mis sentimientos en su vida 
+     y cada que ves que respiro me haces vivir en una imaginacion terriblemente emocional jeje. Te amo
+       </div>       
+          <div className="ta62texto">    
+Te amo 
+          </div>
+          <div className="ta62texto">            
+          <span>19/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta61 nomostrar">        
         <div className="ta61center">
           <div className="ta61texto">   
  Hermosa
