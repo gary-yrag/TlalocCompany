@@ -73,7 +73,33 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta62">        
+      <div className="ta63">        
+        <div className="ta63center">
+          <div className="ta63texto">   
+Luisa.
+          </div>        
+       <div className="ta63texto">    
+   Algun dia las estrellas se alinearan y el sol le alumbrara para que sus deseos se cumplan 
+   y todo lo que desee se le otorgara, entonces se preguntara Yo que he hecho para merecer tanto, 
+   pues no se, se respondera y los pensamientos que imagine se le entregaran y se 
+   preguntará de nuevo Usted, Yo que he hecho para merecer tanto, 
+   aun asi lo que sueñe se presentara cada dia y entonces Usted se preguntara, 
+   Yo que hice por que me regalan tanto en el mundo.
+   <br/> 
+   Y depronto se da cuenta que en la vida que estamos 
+   todavia no hay respuestas pues  el mundo que vivimos solo es de unos 
+   100 años y la vida sigue hasta que encuentre lo que nunca ha soñado, ese soy Yo jejejje Te amo Mi amor.. 
+       </div>       
+          <div className="ta63texto">    
+Te amo 
+          </div>
+          <div className="ta63texto">            
+          <span>20/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta62 nomostrar">        
         <div className="ta62center">
           <div className="ta62texto">   
  Hola mi amor Sara.

@@ -1914,6 +1914,40 @@
   opacity:0.8;
 }
 
+.ta63{
+  background-image: url("https://gifsanimados.de/img-gifsanimados.de/a/amor/amor-conejito-y-osito-en-cama-corazon.gif");
+  background-repeat: repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+  background-size: auto;
+}
+
+.ta63texto{
+  background-color:rgba(248, 237, 79, 0.884);
+  color:rgb(30, 37, 46);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta63center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 500px; 
+}
+
+.ta63imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 300px;
+  width: 500px;
+  opacity:0.8;
+}
 
 .nomostrar{
   display: none;
