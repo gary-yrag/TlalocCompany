@@ -1889,7 +1889,7 @@
   display: flex;
   justify-content: center;  
   background-position: center center;
-  background-size: auto;
+  background-size:  200px 200px;
 }
 
 .ta62texto{
@@ -1943,6 +1943,42 @@
 }
 
 .ta63imagen{
+  border: 1px dashed rgb(175, 238, 4);
+  height: 300px;
+  width: 500px;
+  opacity:0.8;
+}
+
+
+.ta64{
+  background-image: url("https://w7.pngwing.com/pngs/873/12/png-transparent-heart-tree-tree-of-love-tree-branch-branch-palm-tree-thumbnail.png");
+  background-repeat: no-repeat;
+  font-family:serif;
+  padding: 0 1rem;  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  background-position: center center;
+  background-size:  200px 200px;
+}
+
+.ta64texto{
+  background-color:rgba(207, 118, 224, 0.884);
+  color:rgb(30, 37, 46);
+  font-weight: bolder;
+  font-family:fantasy;
+  opacity:0.7;
+  text-align: justify;
+}
+
+.ta64center{
+  border: 1px dashed brown;
+  height: auto;
+  width: 500px; 
+}
+
+.ta64imagen{
   border: 1px dashed rgb(175, 238, 4);
   height: 300px;
   width: 500px;

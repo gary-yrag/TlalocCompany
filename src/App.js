@@ -73,7 +73,34 @@ function App() {
     <Provider store={store}>
       <div>
 
-      <div className="ta63">        
+      <div className="ta64">        
+        <div className="ta64center">
+          <div className="ta64texto">   
+Te amo te amo te amo te amo mi vida
+<br/>
+Mi sara
+          </div>        
+       <div className="ta64texto">    
+  Si el cielo tuviese brisa de seguro este la refrescaria, 
+  tambien si el sol tuviera frio muchos helados le daria, 
+  si los arboles no tuvieran frutos muchas flores Usted recibiria, 
+  si los animales entendieran mas, un chiste le contarian, 
+  si la luna tuviera ojos de seguro por ahyy un ojo le picaria,
+  y si yo no tuviera 3 labios muchos besos triplicados le ofreceria.
+  <br/>
+  Jojo
+
+       </div>       
+          <div className="ta64texto">    
+Besitos
+          </div>
+          <div className="ta64texto">            
+          <span>21/10/2021</span>
+          </div>            
+        </div>       
+      </div> 
+
+      <div className="ta63 nomostrar">        
         <div className="ta63center">
           <div className="ta63texto">   
 Luisa.
